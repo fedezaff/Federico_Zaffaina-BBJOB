@@ -1,0 +1,34 @@
+h1 {
+  font-size: 20px;
+}
+
+.img-slider-homepage {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.img-prodotto-evidenza {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 200px;
+  width: 200px;
+}
+
+.punti-cardine-images {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 30vh;
+}
+
+.prodotti-img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 30vh;
+}
+/*# sourceMappingURL=style.css.map */
