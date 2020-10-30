@@ -2,12 +2,30 @@ h1  {
     font-size: 20px;
 }
 
+.menu{
+    position: absolute;
+    display: block;
+    z-index: 3;
+    background-color: #00000020;
+    img{
+        height: 40px;
+        width: 40px;
+        margin: 10px 0;
+    }
+    .menu-link{
+        margin-top: 10px;
+    }
+    .btn{
+        color: white;
+    }
+}
+
 .img-slider-homepage{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     width: 100vw;
-    height: 100vh;
+    height: 90vh;
 }
 
 .img-prodotto-evidenza{
