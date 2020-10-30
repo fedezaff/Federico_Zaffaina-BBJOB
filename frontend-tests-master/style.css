@@ -31,4 +31,25 @@ h1 {
   background-position: center;
   height: 30vh;
 }
+
+.blog-1-img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 30vh;
+}
+
+.blog-2-img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 30vh;
+}
+
+.blog-3-img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 30vh;
+}
 /*# sourceMappingURL=style.css.map */
