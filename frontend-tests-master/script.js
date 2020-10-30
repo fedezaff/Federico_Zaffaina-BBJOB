@@ -8,6 +8,18 @@ $.ajax({
         console.log(ris.pageStructure.layout.lg[9].elements[0].value.urlMp4);
 
         //header
+        document.getElementsByClassName('header-logo')[0].src = (ris.pageStructure.layout.lg[0].elements[0].imagesgroup.images[0].url)
+
+        document.getElementsByClassName('social-menu')[0].innerHTML = (ris.pageStructure.layout.lg[0].elements[1].value.menu.items[0].name)
+
+            document.getElementsByClassName('social-menu-link-1')[0].innerHTML = (ris.pageStructure.layout.lg[0].elements[1].value.menu.items[0].subMenu[0].name)
+            document.getElementsByClassName('social-menu-link-1')[0].href = (ris.pageStructure.layout.lg[0].elements[1].value.menu.items[0].subMenu[0].link)
+
+            document.getElementsByClassName('social-menu-link-2')[0].innerHTML = (ris.pageStructure.layout.lg[0].elements[1].value.menu.items[0].subMenu[1].name)
+            document.getElementsByClassName('social-menu-link-2')[0].href = (ris.pageStructure.layout.lg[0].elements[1].value.menu.items[0].subMenu[1].link)
+
+            document.getElementsByClassName('social-menu-link-3')[0].innerHTML = (ris.pageStructure.layout.lg[0].elements[1].value.menu.items[0].subMenu[2].name)
+            document.getElementsByClassName('social-menu-link-3')[0].href = (ris.pageStructure.layout.lg[0].elements[1].value.menu.items[0].subMenu[2].link)
 
         //slide-show (carosello di bootstrap)
         document.getElementsByClassName('img-slider-homepage')[0].src = (ris.pageStructure.layout.lg[1].elements[0].imagesgroup.images[0].url)
@@ -24,6 +36,16 @@ $.ajax({
 
         //punti-cardine-text
 
+        document.getElementsByClassName('punti-cardine-text')[0].innerHTML += (ris.pageStructure.layout.lg[4].elements[0].value.content)
+
+        document.getElementsByClassName('punti-cardine-text')[0].style.cssText += (ris.pageStructure.layout.lg[4].elements[0].value.settings.inlineStyle)
+
+        document.getElementsByClassName('punti-cardine-text')[0].style.textAlign+= (ris.pageStructure.layout.lg[4].elements[0].value.settings.textAlignment)
+
+        document.getElementsByClassName('punti-cardine-text')[0].style.color += (ris.pageStructure.layout.lg[4].elements[0].value.settings.textColor)
+
+        document.getElementsByClassName('punti-cardine-text')[0].style.fontSize += (ris.pageStructure.layout.lg[4].elements[0].value.settings.textSize)
+
         //punti-cardine-images
         document.getElementsByClassName('punti-cardine-images')[0].style.backgroundImage = 'url('+(ris.pageStructure.layout.lg[5].elements[0].imagesgroup.images[0].url)+')'
 
@@ -34,6 +56,15 @@ $.ajax({
         document.getElementsByClassName('punti-cardine-images')[3].style.backgroundImage = 'url('+(ris.pageStructure.layout.lg[5].elements[0].imagesgroup.images[3].url)+')'
 
         //prodotti-text
+        document.getElementsByClassName('prodotti-text')[0].innerHTML += (ris.pageStructure.layout.lg[6].elements[0].value.content)
+
+        document.getElementsByClassName('prodotti-text')[0].style.cssText += (ris.pageStructure.layout.lg[6].elements[0].value.settings.inlineStyle)
+
+        document.getElementsByClassName('prodotti-text')[0].style.textAlign+= (ris.pageStructure.layout.lg[6].elements[0].value.settings.textAlignment)
+
+        document.getElementsByClassName('prodotti-text')[0].style.color += (ris.pageStructure.layout.lg[6].elements[0].value.settings.textColor)
+
+        document.getElementsByClassName('prodotti-text')[0].style.fontSize += (ris.pageStructure.layout.lg[6].elements[0].value.settings.textSize)
 
         //prodotti-img
 
@@ -45,7 +76,17 @@ $.ajax({
 
         document.getElementsByClassName('prodotti-img')[3].style.backgroundImage = 'url('+(ris.pageStructure.layout.lg[7].elements[0].bbswayProducts[3].url)+')'
 
-        //la-nostra-mission
+        //mission-text
+
+        document.getElementsByClassName('mission-text')[0].innerHTML += (ris.pageStructure.layout.lg[8].elements[0].value.content)
+
+        document.getElementsByClassName('mission-text')[0].style.cssText += (ris.pageStructure.layout.lg[8].elements[0].value.settings.inlineStyle)
+
+        document.getElementsByClassName('mission-text')[0].style.textAlign+= (ris.pageStructure.layout.lg[8].elements[0].value.settings.textAlignment)
+
+        document.getElementsByClassName('mission-text')[0].style.color += (ris.pageStructure.layout.lg[8].elements[0].value.settings.textColor)
+
+        document.getElementsByClassName('mission-text')[0].style.fontSize += (ris.pageStructure.layout.lg[8].elements[0].value.settings.textSize)
 
         //prodotti
 
