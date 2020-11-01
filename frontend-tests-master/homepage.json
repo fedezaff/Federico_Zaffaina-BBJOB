@@ -43,7 +43,7 @@
                                 },
                                 "images": [
                                     {
-                                        "url": "https://www.olimpiaclubcomo.it/wp-content/uploads/2019/02/instagram-logo-color-256.png",
+                                        "url": "img/white-logo.png",
                                         "title": "",
                                         "description": "",
                                         "caption": "",
@@ -164,14 +164,14 @@
                                 },
                                 "images": [
                                     {
-                                        "url": "https://image.shutterstock.com/image-illustration/wooden-pedestal-displayplatform-designblank-product-600w-1052121983.jpg",
+                                        "url": "img/woman-header.jpg",
                                         "title": "Prodotto 1",
                                         "description": "Descrizione del prodotto 1",
                                         "caption": "",
                                         "idImage": 1
                                     },
                                     {
-                                        "url": "https://image.shutterstock.com/image-illustration/wooden-pedestal-displayplatform-designblank-product-600w-1052121983.jpg",
+                                        "url": "img/man-header.jpg",
                                         "title": "Prodotto 2",
                                         "description": "Descrizione del prodotto 2",
                                         "caption": "",
@@ -214,7 +214,7 @@
                                 },
                                 "images": [
                                     {
-                                        "url": "https://image.shutterstock.com/image-illustration/wooden-pedestal-displayplatform-designblank-product-600w-1052121983.jpg",
+                                        "url": "img/utensili.jpg",
                                         "title": "",
                                         "description": "",
                                         "caption": "",
@@ -226,7 +226,7 @@
                         {
                             "key": "html",
                             "value": {
-                                "content": "<p>Titoletto piccolo</p> <h2>TITOLO H2</h2> <p>Frase mediamente <strong>lunga con GRASSETTO</strong></p> <ul> <li>Feature numero: <strong>1</strong></li> <li>Feature numero: <em>2</em></li> <li>Feature numero: <span style=\"background-color: #e03e2d;\">3</span></li> </ul> <p>&nbsp;</p>",
+                                "content": "<p>sperimenta la tradizione</p> <h2>ti accoglieremo con un buon servizio e un atmosfera rilassante</h2> <p>Ecco i nostri <strong>trattamenti</strong></p> <ul> <li>Feature numero: <strong>1</strong></li> <li>Feature numero: <em>2</em></li> <li>Feature numero: <span style=\"background-color: #e03e2d;\">3</span></li> </ul> <p>&nbsp;</p>",
                                 "settings": {
                                     "id": "prodotto-in-evidenza"
                                 }

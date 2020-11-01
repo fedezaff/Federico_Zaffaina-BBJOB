@@ -2,41 +2,50 @@ h1 {
   font-size: 20px;
 }
 
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
 .menu {
   position: absolute;
   display: block;
   z-index: 3;
-  background-color: #00000020;
 }
 
 .menu img {
-  height: 40px;
-  width: 40px;
-  margin: 10px 0;
+  height: 100px;
 }
 
 .menu .menu-link {
-  margin-top: 10px;
+  margin-top: 30px;
 }
 
 .menu .btn {
   color: white;
 }
 
+.img-slider-container {
+  max-height: 95vh;
+}
+
 .img-slider-homepage {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
   width: 100vw;
-  height: 90vh;
+  height: auto;
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .img-prodotto-evidenza {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 200px;
-  width: 200px;
+  -webkit-box-shadow: 3px 3px 5px #0000002f;
+          box-shadow: 3px 3px 5px #0000002f;
 }
 
 .punti-cardine-images {
