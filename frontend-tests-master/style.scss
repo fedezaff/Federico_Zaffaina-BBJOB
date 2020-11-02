@@ -1,5 +1,55 @@
-h1  {
+@import "_reset";
+
+
+body{
+    background-color: #E3E1DB;
+}
+
+.prova{
+    float: left;
+}
+
+.clear{
+    clear: both;
+}
+
+h2 {
+    color: #0C0908;
     font-size: 20px;
+    font-family: 'Libre Franklin', sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+    line-height: 25px;
+}
+
+h4{
+    color:#cb906d;
+    text-transform: uppercase;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 600;
+}
+
+h5{
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 600;
+}
+
+strong{
+    color:#cb906d;
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 600;
+}
+
+li{
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+span{
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 300;
+    text-transform: initial;
 }
 
 .center{

@@ -226,7 +226,7 @@
                         {
                             "key": "html",
                             "value": {
-                                "content": "<p>sperimenta la tradizione</p> <h2>ti accoglieremo con un buon servizio e un atmosfera rilassante</h2> <p>Ecco i nostri <strong>trattamenti</strong></p> <ul> <li>Feature numero: <strong>1</strong></li> <li>Feature numero: <em>2</em></li> <li>Feature numero: <span style=\"background-color: #e03e2d;\">3</span></li> </ul> <p>&nbsp;</p>",
+                                "content": "<h4 class='my-3'>sperimenta la tradizione</h4> <h2>ti accoglieremo con un buon servizio e un atmosfera rilassante</h2> <h5 class='my-3'>Ognuno è il <strong>benvenuto</strong></h5> <ul> <img class='prova' src='img/man-icon.svg' height='80em' width='80em'><li class='pt-3'>Uomini</br><span>taglio capelli e barba</span></li> <br><br><br> <img class='prova' src='img/woman-icon.svg' height='80em' width='80em'><li class='pt-3'>Donne</br><span>taglio capelli e messa in piega</span></li> <br><br><br> <img class='prova' src='img/child-icon.svg' height='80em' width='80em'><li class='pt-3'>Bambini</br><span>taglio capelli</span></li> </ul class='clear'>",
                                 "settings": {
                                     "id": "prodotto-in-evidenza"
                                 }
@@ -505,7 +505,7 @@
                                     "elementClasses": "emula-h3",
                                     "attributes": [],
                                     "textSize": "12px",
-                                    "textColor": "#000000",
+                                    "textColor": "#cb906d",
                                     "textAlignment": "center", 
                                     "inlineStyle": "text-transform: uppercase; font-weight: bold;"
                                 }
