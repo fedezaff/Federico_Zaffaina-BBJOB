@@ -245,7 +245,7 @@
                         {
                             "key": "html",
                             "value": {
-                                "content": "<div class=\"riga\"> <div class=\"colonna-6\"> <div class=\"riga\"> <div class=\"colonna-6\"> <strong>Il nostro prodotto<\/strong> \u00E8 fortissimo <\/div> <div class=\"colonna-6\"> <img src=\"https:\/\/image.shutterstock.com\/image-photo\/wind-turbine-asian-mechanical-engineer-260nw-1414882847.jpg\" id=\"prodotto-fortissimo-1\" class=\"prodotto-fortissimo\" \/> <\/div> <\/div> <div class=\"riga\"> <div class=\"riga\"> <div class=\"colonna-12\"> <img src=\"https:\/\/image.shutterstock.com\/image-photo\/landscape-wind-turbines-that-produce-600w-1529737649.jpg\" id=\"prodotto-fortissimo-2\" class=\"prodotto-fortissimo\" \/> <\/div> <\/div> <div class=\"riga\"> <div class=\"colonna-12\"> <p>PROGETTI <strong>\"SU MISURA\"<\/strong><\/p> <p>La possibilit\u00E0 di customizzazione del prodotto ci rende i partner ideali per studi di progettazione che richiedono una forte personalizzazione dle prodotto!<\/p> <\/div> <\/div> <\/div> <\/div> <div class=\"colonna-6\"> <div class=\"riga\"> <div class=\"colonna-12\"> <p>PRODUTTORI AL <strong>100%<\/strong><\/p> <p>Progettando e realizzando i nostri prodotti garantiamo standard elevati e <strong>garanzia di qualit\u00E0<\/strong>.<\/p> <p>Uno <strong>standard elevato<\/strong> sotto tutti i punti di vista<\/p> <\/div> <\/div> <div class=\"riga\"> <div class=\"colonna-12\"> <img src=\"https:\/\/image.shutterstock.com\/image-photo\/greek-wind-park-on-snowed-260nw-1654044058.jpg\" id=\"prodotto-fortissimo-3\" class=\"prodotto-fortissimo\" \/> <\/div> <\/div> <\/div> <\/div>",
+                                "content": "<div class=\"row\"> <div class=\"col-6\"> <div class=\"row\"> <div class=\"col-6\"> <strong>Il nostro prodotto<\/strong> \u00E8 fortissimo <\/div> <div class=\"col-6\"> <img src=\"https:\/\/image.shutterstock.com\/image-photo\/wind-turbine-asian-mechanical-engineer-260nw-1414882847.jpg\" id=\"prodotto-fortissimo-1\" class=\"prodotto-fortissimo\" \/> <\/div> <\/div> <div class=\"row\"> <div class=\"row\"> <div class=\"col-12\"> <img src=\"https:\/\/image.shutterstock.com\/image-photo\/landscape-wind-turbines-that-produce-600w-1529737649.jpg\" id=\"prodotto-fortissimo-2\" class=\"prodotto-fortissimo\" \/> <\/div> <\/div> <div class=\"row\"> <div class=\"col-12\"> <p>PROGETTI <strong>\"SU MISURA\"<\/strong><\/p> <p>La possibilit\u00E0 di customizzazione del prodotto ci rende i partner ideali per studi di progettazione che richiedono una forte personalizzazione dle prodotto!<\/p> <\/div> <\/div> <\/div> <\/div> <div class=\"col-6\"> <div class=\"row\"> <div class=\"col-12\"> <p>PRODUTTORI AL <strong>100%<\/strong><\/p> <p>Progettando e realizzando i nostri prodotti garantiamo standard elevati e <strong>garanzia di qualit\u00E0<\/strong>.<\/p> <p>Uno <strong>standard elevato<\/strong> sotto tutti i punti di vista<\/p> <\/div> <\/div> <div class=\"row\"> <div class=\"col-12\"> <img src=\"https:\/\/image.shutterstock.com\/image-photo\/greek-wind-park-on-snowed-260nw-1654044058.jpg\" id=\"prodotto-fortissimo-3\" class=\"prodotto-fortissimo\" \/> <\/div> <\/div> <\/div> <\/div>",
                                 "settings": {
                                     "id": "la-nostra-forza"
                                 }
@@ -264,7 +264,7 @@
                         {
                             "key": "text",
                             "value": {
-                                "content": "I nostri punti cardine",
+                                "content": "Gallery",
                                 "settings": {
                                     "id": "",
                                     "elementClasses": "",
@@ -310,28 +310,28 @@
                                 },
                                 "images": [
                                     {
-                                        "url": "https://image.shutterstock.com/image-vector/privacy-mode-icon-security-feature-600w-665157262.jpg",
+                                        "url": "img/gallery-1.jpg",
                                         "title": "",
                                         "description": "Feature 1",
                                         "caption": "",
                                         "idImage": 10
                                     },
                                     {
-                                        "url": "https://image.shutterstock.com/image-vector/privacy-mode-icon-security-feature-600w-665157262.jpg",
+                                        "url": "img/gallery-2.jpg",
                                         "title": "",
                                         "description": "Feature 2",
                                         "caption": "",
                                         "idImage": 11
                                     },
                                     {
-                                        "url": "https://image.shutterstock.com/image-vector/privacy-mode-icon-security-feature-600w-665157262.jpg",
+                                        "url": "img/gallery-3.jpg",
                                         "title": "",
                                         "description": "Feature 3",
                                         "caption": "",
                                         "idImage": 12
                                     },
                                     {
-                                        "url": "https://image.shutterstock.com/image-vector/privacy-mode-icon-security-feature-600w-665157262.jpg",
+                                        "url": "img/gallery-4.jpg",
                                         "title": "",
                                         "description": "Feature 4",
                                         "caption": "",

@@ -36,7 +36,7 @@ $.ajax({
         $('.prodotto-evidenza')[0].innerHTML += (base.lg[2].elements[1].value.content)
 
         //nostra-forza
-        $('.nostra-forza')[0].innerHTML += (base.lg[3].elements[0].value.content)
+/*         $('.nostra-forza')[0].innerHTML += (base.lg[3].elements[0].value.content) */
 
         //punti-cardine-text
 

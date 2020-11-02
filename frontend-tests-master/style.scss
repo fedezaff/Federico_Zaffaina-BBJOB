@@ -15,7 +15,7 @@ body{
 
 h2 {
     color: #0C0908;
-    font-size: 20px;
+    font-size: 25px;
     font-family: 'Libre Franklin', sans-serif;
     text-transform: uppercase;
     font-weight: 800;
@@ -63,6 +63,7 @@ span{
     position: absolute;
     display: block;
     z-index: 3;
+    background-color: #0c090860;
 
     img{
         height: 100px;
@@ -71,6 +72,8 @@ span{
         margin-top: 30px;
     }
     .btn{
+        font-family: 'Libre Franklin', sans-serif;
+        font-weight: 300;
         color: white;
     }
 }
@@ -86,6 +89,14 @@ span{
     object-fit: cover;
 }
 
+.salone{
+    background-image: url(img/salone.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 80vh;
+}
+
 .img-prodotto-evidenza{
     background-size: cover;
     background-repeat: no-repeat;
@@ -97,7 +108,7 @@ span{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 30vh;
+    height: 60vh;
 }
 
 .prodotti-img{
