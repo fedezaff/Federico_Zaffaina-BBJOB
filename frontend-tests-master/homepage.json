@@ -164,14 +164,14 @@
                                 },
                                 "images": [
                                     {
-                                        "url": "img/woman-header.jpg",
+                                        "url": "img/slider-1.jpg",
                                         "title": "Prodotto 1",
                                         "description": "Descrizione del prodotto 1",
                                         "caption": "",
                                         "idImage": 1
                                     },
                                     {
-                                        "url": "img/man-header.jpg",
+                                        "url": "img/slider-2.jpg",
                                         "title": "Prodotto 2",
                                         "description": "Descrizione del prodotto 2",
                                         "caption": "",
@@ -226,7 +226,7 @@
                         {
                             "key": "html",
                             "value": {
-                                "content": "<h4 class='my-3'>sperimenta la tradizione</h4> <h2>ti accoglieremo con un buon servizio e un atmosfera rilassante</h2> <h5 class='my-3'>Ognuno è il <strong>benvenuto</strong></h5> <ul> <img class='prova' src='img/man-icon.svg' height='80em' width='80em'><li class='pt-3'>Uomini</br><span>taglio capelli e barba</span></li> <br><br><br> <img class='prova' src='img/woman-icon.svg' height='80em' width='80em'><li class='pt-3'>Donne</br><span>taglio capelli e messa in piega</span></li> <br><br><br> <img class='prova' src='img/child-icon.svg' height='80em' width='80em'><li class='pt-3'>Bambini</br><span>taglio capelli</span></li> </ul class='clear'>",
+                                "content": "<h4 class='mb-2 mt-3'>sperimenta la tradizione</h4> <h2>ti accoglieremo con un buon servizio e un atmosfera rilassante</h2> <h5 class='my-3'>Ognuno è il <strong>benvenuto</strong></h5> <ul> <img class='prova' src='img/man-icon.svg' height='80em' width='80em'><li class='pt-3'>Uomini</br><span>taglio capelli e barba</span></li> <br><br><br> <img class='prova' src='img/woman-icon.svg' height='80em' width='80em'><li class='pt-3'>Donne</br><span>taglio capelli e messa in piega</span></li> <br><br><br> <img class='prova' src='img/child-icon.svg' height='80em' width='80em'><li class='pt-3'>Bambini</br><span>taglio capelli</span></li> </ul class='clear'>",
                                 "settings": {
                                     "id": "prodotto-in-evidenza"
                                 }
@@ -269,10 +269,10 @@
                                     "id": "",
                                     "elementClasses": "",
                                     "attributes": [],
-                                    "textSize": "20px",
-                                    "textColor": "#000000",
+                                    "textSize": "25px",
+                                    "textColor": "#0C0908",
                                     "textAlignment": "center", 
-                                    "inlineStyle": "text-transform: uppercase; font-weight: bold;"
+                                    "inlineStyle": "text-transform: uppercase; font-weight: 800;    line-height: 25px; font-family: 'Libre Franklin', sans-serif;"
                                 }
                             }
                         }
@@ -391,28 +391,28 @@
                             "bbswayProducts": 
                             [
                                 {
-                                    "productImageUrl": "https://image.shutterstock.com/image-vector/privacy-mode-icon-security-feature-600w-665157262.jpg",
+                                    "productImageUrl": "img/nature-logo.png",
                                     "title": "Prodotto 1",
                                     "idCategory": 1,
                                     "categoryDescription": "Category 1",
                                     "productUrl": "/product/example-product"
                                 },
                                 {
-                                    "url": "https://image.shutterstock.com/image-vector/privacy-mode-icon-security-feature-600w-665157262.jpg",
+                                    "url": "img/tinta-logo.png",
                                     "title": "Prodotto 2",
                                     "idCategory": 2,
                                     "categoryDescription": "Category 2",
                                     "productUrl": "/product/example-product"
                                 },
                                 {
-                                    "url": "https://image.shutterstock.com/image-vector/privacy-mode-icon-security-feature-600w-665157262.jpg",
+                                    "url": "img/barbiere-logo.png",
                                     "title": "Prodotto 3",
                                     "idCategory": 2,
                                     "categoryDescription": "Category 2",
                                     "productUrl": "/product/example-product"
                                 },
                                 {
-                                    "url": "https://image.shutterstock.com/image-vector/privacy-mode-icon-security-feature-600w-665157262.jpg",
+                                    "url": "img/utensili-logo.png",
                                     "title": "Prodotto 4",
                                     "idCategory": 1,
                                     "categoryDescription": "Category 1",
@@ -438,10 +438,10 @@
                                     "id": "",
                                     "elementClasses": "",
                                     "attributes": [],
-                                    "textSize": "20px",
-                                    "textColor": "#000000",
-                                    "textAlignment": "right", 
-                                    "inlineStyle": "text-transform: uppercase; font-weight: bold;"
+                                    "textSize": "25px",
+                                    "textColor": "#0C0908",
+                                    "textAlignment": "center", 
+                                    "inlineStyle": "text-transform: uppercase; font-weight: 800;    font-family: 'Libre Franklin', sans-serif;line-height: 25px;"
                                 }
                             }
                         }
@@ -458,7 +458,7 @@
                         {
                             "key": "video",
                             "value": {
-                                "urlMp4": "https://www.youtube.com/watch?v=y7wD5uajZBI",
+                                "urlMp4": "https://www.youtube.com/embed/xfHBMNs3SjU",
                                 "urlOgg": "",
                                 "urlPoster": "",
                                 "behaviours": {
@@ -480,7 +480,7 @@
                         {
                             "key": "html",
                             "value": {
-                                "content": "<p style=\"text-align: justify;\">\"Progettiamo e realizziamo prodotti per un certo motivo che si distinguono per la qualit&agrave;, l'innovazione tecnologica e una filosofia incentrata sul risparmio energetico e sull'ecosostenibilit&agrave;\".</p> <br/><br/> <a class=\"bottone bottone-verde bottone-con-freccia-destra testo-uppercase\">La nostra storia</a>",
+                                "content": "<p style=\"text-align: justify;\">\"Progettiamo e realizziamo prodotti per un certo motivo che si distinguono per la qualit&agrave;, l'innovazione tecnologica e una filosofia incentrata sul risparmio energetico e sull'ecosostenibilit&agrave;Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque illo voluptatibus consequatur corporis iusto ab, corrupti assumenda iure ipsam ex distinctio, error quo pariatur non nostrum tempora consequuntur! Temporibus, error!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque illo voluptatibus consequatur corporis iusto ab, corrupti assumenda iure ipsam ex distinctio, error quo pariatur non nostrum tempora consequuntur! Temporibus, error!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque illo voluptatibus consequatur corporis iusto ab, corrupti assumenda iure ipsam ex distinctio, error quo pariatur non nostrum tempora consequuntur! Temporibus, error!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque illo voluptatibus consequatur corporis iusto ab, corrupti assumenda iure ipsam ex distinctio, error quo pariatur non nostrum tempora consequuntur! Temporibus, error!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque illo voluptatibus consequatur corporis iusto ab, corrupti assumenda iure ipsam ex distinctio, error quo pariatur non nostrum tempora consequuntur! Temporibus, error!\".</p> <br/><br/> <a class=\"bottone bottone-verde bottone-con-freccia-destra testo-uppercase\">La nostra storia</a>",
                                 "settings": {
                                     "id": "our-mission-desc"
                                 }
@@ -1493,10 +1493,10 @@
                                     "id": "",
                                     "elementClasses": "",
                                     "attributes": [],
-                                    "textSize": "20px",
-                                    "textColor": "#000000",
+                                    "textSize": "25px",
+                                    "textColor": "#0C0908",
                                     "textAlignment": "center", 
-                                    "inlineStyle": "text-transform: uppercase; font-weight: bold;"
+                                    "inlineStyle": "text-transform: uppercase; font-weight: 800; line-height: 25px; font-family: 'Libre Franklin', sans-serif;"
                                 }
                             }
                         }
