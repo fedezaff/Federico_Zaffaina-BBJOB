@@ -23,9 +23,8 @@ $.ajax({
             $('.social-menu-link-3')[0].innerHTML = (base.lg[0].elements[1].value.menu.items[0].subMenu[2].name)
             $('.social-menu-link-3')[0].href = (base.lg[0].elements[1].value.menu.items[0].subMenu[2].link)
 
-        $('.social-menu-2')[0].innerHTML = (base.lg[0].elements[1].value.menu.items[1].name)
-
         //slide-show (carosello di bootstrap)
+        
         $('.img-slider-homepage')[0].src = (base.lg[1].elements[0].imagesgroup.images[0].url)
 
         $('.img-slider-homepage')[1].src = (base.lg[1].elements[0].imagesgroup.images[1].url)
@@ -146,7 +145,7 @@ $.ajax({
 
         //footer
 
-        $('.footer')[0].innerHTML += (base.lg[13].elements[0].value.content)
+/*         $('.footer')[0].innerHTML += (base.lg[13].elements[0].value.content)
 
         $('.footer')[0].style.cssText += (base.lg[13].elements[0].value.settings.inlineStyle)
 
@@ -154,6 +153,6 @@ $.ajax({
 
         $('.footer')[0].style.color += (base.lg[13].elements[0].value.settings.textColor)
 
-        $('.footer')[0].style.fontSize += (base.lg[13].elements[0].value.settings.textSize)
+        $('.footer')[0].style.fontSize += (base.lg[13].elements[0].value.settings.textSize) */
     }
 })

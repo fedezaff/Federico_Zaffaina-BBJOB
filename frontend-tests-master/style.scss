@@ -1,8 +1,10 @@
 @import "_reset";
 
 
-body{
+html, body{
     background-color: #E3E1DB;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 .prova{
@@ -22,12 +24,22 @@ h2 {
     line-height: 25px;
 }
 
+h3{
+    color: #0C0908;
+    font-size: 22px;
+    font-family: 'Libre Franklin', sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+    line-height: 25px;
+}
+
 h4{
     color:#cb906d;
     text-transform: uppercase;
     font-family: 'Libre Franklin', sans-serif;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 16px;
+    padding-bottom: 0.3em;
 }
 
 h5{
@@ -51,6 +63,7 @@ span{
     font-family: 'Libre Franklin', sans-serif;
     font-weight: 300;
     text-transform: initial;
+    font-size: 16px;
 }
 
 .center{
@@ -65,7 +78,7 @@ span{
 }
 
 .lg-space{
-    margin-top: 100px;
+    margin-top: 80px;
 }
 
 .scrollContainer{
@@ -140,6 +153,11 @@ span{
     margin: 0px auto;
 }
 
+.prodotti-video-text{
+    margin: auto 0px;
+    padding: 0 30px;
+}
+
 .blog-1-img{
     background-size: cover;
     background-repeat: no-repeat;
@@ -159,4 +177,29 @@ span{
     background-repeat: no-repeat;
     background-position: center;
     height: 30vh;
+}
+
+.footer{
+    background-color: #A18B74;
+}
+
+hr{
+    border: 1px solid white;
+}
+
+.map{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(img/map.jpg);
+    height: 30vh;
+    margin: 50px 30px 50px 80px;
+}
+
+.info-footer{
+    margin: 50px 0;
+    color: white;
+    h4{
+        color: white;
+    }
 }
