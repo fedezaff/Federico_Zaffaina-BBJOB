@@ -68,7 +68,7 @@
                                     "items": [
                                         {
                                             "id": 3,
-                                            "name": "Social",
+                                            "name": "Social&nbsp;",
                                             "idMenu": 2,
                                             "idFather": null,
                                             "isPost": false,
@@ -79,37 +79,37 @@
                                             "subMenu": [
                                                 {
                                                     "id": 7,
-                                                    "name": "Google",
-                                                    "idMenu": 2,
-                                                    "idFather": 3,
-                                                    "isPost": false,
-                                                    "isPage": false,
-                                                    "idEntity": null,
-                                                    "link": "https://google.it",
-                                                    "order": 1,
-                                                    "subMenu": []
-                                                },
-                                                {
-                                                    "id": 8,
                                                     "name": "Facebook",
                                                     "idMenu": 2,
                                                     "idFather": 3,
                                                     "isPost": false,
                                                     "isPage": false,
                                                     "idEntity": null,
-                                                    "link": "https://facebook.it",
-                                                    "order": 2,
+                                                    "link": "https://www.facebook.com",
+                                                    "order": 1,
                                                     "subMenu": []
                                                 },
                                                 {
-                                                    "id": 9,
-                                                    "name": "Instagram",
+                                                    "id": 8,
+                                                    "name": "Istagram",
                                                     "idMenu": 2,
                                                     "idFather": 3,
                                                     "isPost": false,
                                                     "isPage": false,
                                                     "idEntity": null,
-                                                    "link": "https://instagram.it",
+                                                    "link": "https://www.instagram.com",
+                                                    "order": 2,
+                                                    "subMenu": []
+                                                },
+                                                {
+                                                    "id": 9,
+                                                    "name": "Youtube",
+                                                    "idMenu": 2,
+                                                    "idFather": 3,
+                                                    "isPost": false,
+                                                    "isPage": false,
+                                                    "idEntity": null,
+                                                    "link": "https://www.youtube.com",
                                                     "order": 3,
                                                     "subMenu": []
                                                 }
@@ -226,7 +226,7 @@
                         {
                             "key": "html",
                             "value": {
-                                "content": "<h4 class='mb-2 mt-3'>sperimenta la tradizione</h4> <h2>ti accoglieremo con un buon servizio e un atmosfera rilassante</h2> <h5 class='my-3'>Ognuno è il <strong>benvenuto</strong></h5> <ul> <img class='prova' src='img/man-icon.svg' height='80em' width='80em'><li class='pt-3'>Uomini</br><span>taglio capelli e barba</span></li> <br><br><br> <img class='prova' src='img/woman-icon.svg' height='80em' width='80em'><li class='pt-3'>Donne</br><span>taglio capelli e messa in piega</span></li> <br><br><br> <img class='prova' src='img/child-icon.svg' height='80em' width='80em'><li class='pt-3'>Bambini</br><span>taglio capelli</span></li> </ul class='clear'>",
+                                "content": "<h4 class='mb-2 mt-3'>sperimenta la tradizione</h4> <h2>ti accoglieremo con un buon servizio e un atmosfera rilassante</h2> <h5 class='my-3'>Ognuno è il <strong>benvenuto</strong></h5> <ul> <img class='float-left' src='img/man-icon.svg' height='80em' width='80em'><li class='pt-3'>Uomini</br><span>taglio capelli e barba</span></li> <br><br><br> <img class='float-left' src='img/woman-icon.svg' height='80em' width='80em'><li class='pt-3'>Donne</br><span>taglio capelli e messa in piega</span></li> <br><br><br> <img class='float-left' src='img/child-icon.svg' height='80em' width='80em'><li class='pt-3'>Bambini</br><span>taglio capelli</span></li> </ul class='clear'>",
                                 "settings": {
                                     "id": "prodotto-in-evidenza"
                                 }

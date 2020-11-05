@@ -14,13 +14,8 @@ $.ajax({
 
         $('.social-menu')[0].innerHTML = (base.lg[0].elements[1].value.menu.items[0].name)
 
-            $('.social-menu-link-1')[0].innerHTML = (base.lg[0].elements[1].value.menu.items[0].subMenu[0].name)
             $('.social-menu-link-1')[0].href = (base.lg[0].elements[1].value.menu.items[0].subMenu[0].link)
-
-            $('.social-menu-link-2')[0].innerHTML = (base.lg[0].elements[1].value.menu.items[0].subMenu[1].name)
             $('.social-menu-link-2')[0].href = (base.lg[0].elements[1].value.menu.items[0].subMenu[1].link)
-
-            $('.social-menu-link-3')[0].innerHTML = (base.lg[0].elements[1].value.menu.items[0].subMenu[2].name)
             $('.social-menu-link-3')[0].href = (base.lg[0].elements[1].value.menu.items[0].subMenu[2].link)
 
         //slide-show (carosello di bootstrap)
@@ -156,3 +151,13 @@ $.ajax({
         $('.footer')[0].style.fontSize += (base.lg[13].elements[0].value.settings.textSize) */
     }
 })
+
+//smooth scroll for link
+
+$('a[href^="#"]').click(function () {
+    $('html, body').animate({
+        scrollTop: $('[name="' + $.attr(this, 'href').substr(1) + '"]').offset().top
+    }, 500);
+
+    return false;
+});

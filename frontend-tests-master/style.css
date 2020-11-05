@@ -369,12 +369,21 @@ html, body {
   overflow-x: hidden;
 }
 
-.prova {
+.float-left {
   float: left;
 }
 
 .clear {
   clear: both;
+}
+
+h1 {
+  color: white;
+  font-size: 25px;
+  font-family: 'Libre Franklin', sans-serif;
+  text-transform: uppercase;
+  font-weight: 800;
+  line-height: 25px;
 }
 
 h2 {
@@ -457,7 +466,7 @@ span {
   background-color: #0c090860;
 }
 
-.menu img {
+.menu .header-logo {
   height: 100px;
 }
 
@@ -468,6 +477,20 @@ span {
 .menu .btn {
   font-family: 'Libre Franklin', sans-serif;
   font-weight: 300;
+  color: white;
+}
+
+.dropdown-menu.show {
+  background-color: #0c090800;
+  border: none;
+  top: -3px !important;
+}
+
+.dropdown-menu.show :hover {
+  background-color: #0c090800;
+}
+
+.dropdown-menu.show a {
   color: white;
 }
 
