@@ -1,0 +1,2462 @@
+{
+    "name": "homepage",
+    "pageStructure": 
+    {
+        "title": "Homepage",
+        "keywords": "keywords, di, esempio",
+        "metaTitle": "Meta Title",
+        "metaDescription": "Meta Description",
+        "customClasses": "contenitore-pagina",
+        "attributes": [],
+        "layout": {
+            "lg": 
+            [
+                {
+                    "responsiveCode": "2-10",
+                    "columnGap": "0px",
+                    "rowGap": "0px",
+                    "customRowClasses": "bb-header",
+                    "customColumnsClasses": "bb-header-column",
+                    "attributes": [],
+                    "elements": [
+                        {
+                            "key": "imagesgroup",
+                            "value": {
+                                "idGallery": 1,
+                                "type": "gallery",
+                                "showCaption": false,
+                                "showTitle": false,
+                                "showDescription": false,
+                                "settings": {
+                                    "extendClassesToImages": true,
+                                    "id": "header-logo",
+                                    "customClasses": "header-logo",
+                                    "inlineStyle": "",
+                                    "attributes": []
+                                }
+                            },
+                            "imagesgroup": {
+                                "gallery": {
+                                    "name": "Logo",
+                                    "description": "Logo",
+                                    "slug": "gallery-logo"
+                                },
+                                "images": [
+                                    {
+                                        "url": "img/white-logo.png",
+                                        "title": "",
+                                        "description": "",
+                                        "caption": "",
+                                        "idImage": 0
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "key": "menu",
+                            "value": {
+                                "idMenu": 2,
+                                "settings": {
+                                    "id": "header-menu",
+                                    "customClasses": "header-menu",
+                                    "inlineStyle": "",
+                                    "attributes": []
+                                },
+                                "menu": {
+                                    "id": 2,
+                                    "description": "Menù Header",
+                                    "items": [
+                                        {
+                                            "id": 3,
+                                            "name": "Social&nbsp;",
+                                            "idMenu": 2,
+                                            "idFather": null,
+                                            "isPost": false,
+                                            "isPage": false,
+                                            "idEntity": null,
+                                            "link": "#",
+                                            "order": 1,
+                                            "subMenu": [
+                                                {
+                                                    "id": 7,
+                                                    "name": "Facebook",
+                                                    "idMenu": 2,
+                                                    "idFather": 3,
+                                                    "isPost": false,
+                                                    "isPage": false,
+                                                    "idEntity": null,
+                                                    "link": "https://www.facebook.com",
+                                                    "order": 1,
+                                                    "subMenu": []
+                                                },
+                                                {
+                                                    "id": 8,
+                                                    "name": "Istagram",
+                                                    "idMenu": 2,
+                                                    "idFather": 3,
+                                                    "isPost": false,
+                                                    "isPage": false,
+                                                    "idEntity": null,
+                                                    "link": "https://www.instagram.com",
+                                                    "order": 2,
+                                                    "subMenu": []
+                                                },
+                                                {
+                                                    "id": 9,
+                                                    "name": "Youtube",
+                                                    "idMenu": 2,
+                                                    "idFather": 3,
+                                                    "isPost": false,
+                                                    "isPage": false,
+                                                    "idEntity": null,
+                                                    "link": "https://www.youtube.com",
+                                                    "order": 3,
+                                                    "subMenu": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": 12,
+                                            "name": "Item 2",
+                                            "idMenu": 2,
+                                            "idFather": null,
+                                            "isPost": false,
+                                            "isPage": false,
+                                            "idEntity": null,
+                                            "link": "#",
+                                            "order": 2
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "responsiveCode": "12",
+                    "columnGap": "0px",
+                    "rowGap": "0px",
+                    "customRowClasses": "bb-slideshow-row",
+                    "customColumnsClasses": "bb-slideshow-column",
+                    "attributes": [],
+                    "elements": [
+                        {
+                            "key": "imagesgroup",
+                            "value": {
+                                "idGallery": 2,
+                                "type": "slideshow",
+                                "showCaption": false,
+                                "showTitle": true,
+                                "showDescription": true,
+                                "settings": {
+                                    "extendClassesToImages": true,
+                                    "id": "header-logo",
+                                    "customClasses": "header-logo",
+                                    "inlineStyle": "",
+                                    "attributes": []
+                                }
+                            },
+                            "imagesgroup": {
+                                "gallery": {
+                                    "name": "Homepage Slideshow",
+                                    "description": "Descrizione homepage slideshow",
+                                    "slug": "homepage-slideshow"
+                                },
+                                "images": [
+                                    {
+                                        "url": "img/slider-1.jpg",
+                                        "title": "Prodotto 1",
+                                        "description": "Descrizione del prodotto 1",
+                                        "caption": "",
+                                        "idImage": 1
+                                    },
+                                    {
+                                        "url": "img/slider-2.jpg",
+                                        "title": "Prodotto 2",
+                                        "description": "Descrizione del prodotto 2",
+                                        "caption": "",
+                                        "idImage": 0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "responsiveCode": "6-6",
+                    "columnGap": "0px",
+                    "rowGap": "0px",
+                    "customRowClasses": "bb-prodotto-evidenza-row",
+                    "customColumnsClasses": "bb-prodotto-evidenza-column",
+                    "attributes": [],
+                    "elements": [
+                        {
+                            "key": "imagesgroup",
+                            "value": {
+                                "idGallery": 1,
+                                "type": "gallery",
+                                "showCaption": false,
+                                "showTitle": false,
+                                "showDescription": false,
+                                "settings": {
+                                    "extendClassesToImages": true,
+                                    "id": "homepage-img-1",
+                                    "customClasses": "homepage-img homepage-img-first-block",
+                                    "inlineStyle": "",
+                                    "attributes": []
+                                }
+                            },
+                            "imagesgroup": {
+                                "gallery": {
+                                    "name": "Homepage Images First Block",
+                                    "description": "Images for the first block of the homepage",
+                                    "slug": "first-block-gallery"
+                                },
+                                "images": [
+                                    {
+                                        "url": "img/utensili.jpg",
+                                        "title": "",
+                                        "description": "",
+                                        "caption": "",
+                                        "idImage": 0
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "key": "html",
+                            "value": {
+                                "content": "<h4 class='mb-2 mt-3'>sperimenta la tradizione</h4> <h2>ti accoglieremo con un buon servizio e un atmosfera rilassante</h2> <h5 class='my-3'>Ognuno è il <strong>benvenuto</strong></h5> <ul> <img class='float-left' src='img/man-icon.svg' height='80em' width='80em'><li class='pt-3'>Uomini</br><span>taglio capelli e barba</span></li> <br><br><br> <img class='float-left' src='img/woman-icon.svg' height='80em' width='80em'><li class='pt-3'>Donne</br><span>taglio capelli e messa in piega</span></li> <br><br><br> <img class='float-left' src='img/child-icon.svg' height='80em' width='80em'><li class='pt-3'>Bambini</br><span>taglio capelli</span></li> </ul class='clear'>",
+                                "settings": {
+                                    "id": "prodotto-in-evidenza"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "responsiveCode": "12",
+                    "columnGap": "0px",
+                    "rowGap": "0px",
+                    "customRowClasses": "bb-nostra-forza-row",
+                    "customColumnsClasses": "bb-nostra-forza-column",
+                    "attributes": [],
+                    "elements": [
+                        {
+                            "key": "html",
+                            "value": {
+                                "content": "<div class=\"row\"> <div class=\"col-6\"> <div class=\"row\"> <div class=\"col-6\"> <strong>Il nostro prodotto<\/strong> \u00E8 fortissimo <\/div> <div class=\"col-6\"> <img src=\"https:\/\/image.shutterstock.com\/image-photo\/wind-turbine-asian-mechanical-engineer-260nw-1414882847.jpg\" id=\"prodotto-fortissimo-1\" class=\"prodotto-fortissimo\" \/> <\/div> <\/div> <div class=\"row\"> <div class=\"row\"> <div class=\"col-12\"> <img src=\"https:\/\/image.shutterstock.com\/image-photo\/landscape-wind-turbines-that-produce-600w-1529737649.jpg\" id=\"prodotto-fortissimo-2\" class=\"prodotto-fortissimo\" \/> <\/div> <\/div> <div class=\"row\"> <div class=\"col-12\"> <p>PROGETTI <strong>\"SU MISURA\"<\/strong><\/p> <p>La possibilit\u00E0 di customizzazione del prodotto ci rende i partner ideali per studi di progettazione che richiedono una forte personalizzazione dle prodotto!<\/p> <\/div> <\/div> <\/div> <\/div> <div class=\"col-6\"> <div class=\"row\"> <div class=\"col-12\"> <p>PRODUTTORI AL <strong>100%<\/strong><\/p> <p>Progettando e realizzando i nostri prodotti garantiamo standard elevati e <strong>garanzia di qualit\u00E0<\/strong>.<\/p> <p>Uno <strong>standard elevato<\/strong> sotto tutti i punti di vista<\/p> <\/div> <\/div> <div class=\"row\"> <div class=\"col-12\"> <img src=\"https:\/\/image.shutterstock.com\/image-photo\/greek-wind-park-on-snowed-260nw-1654044058.jpg\" id=\"prodotto-fortissimo-3\" class=\"prodotto-fortissimo\" \/> <\/div> <\/div> <\/div> <\/div>",
+                                "settings": {
+                                    "id": "la-nostra-forza"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "responsiveCode": "12",
+                    "columnGap": "0px",
+                    "rowGap": "0px",
+                    "customRowClasses": "bb-punti-cardine-text-row",
+                    "customColumnsClasses": "bb-punti-cardine-text-column",
+                    "attributes": [],
+                    "elements": [
+                        {
+                            "key": "text",
+                            "value": {
+                                "content": "Gallery",
+                                "settings": {
+                                    "id": "",
+                                    "elementClasses": "",
+                                    "attributes": [],
+                                    "textSize": "25px",
+                                    "textColor": "#0C0908",
+                                    "textAlignment": "center", 
+                                    "inlineStyle": "text-transform: uppercase; font-weight: 800;    line-height: 25px; font-family: 'Libre Franklin', sans-serif;"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "responsiveCode": "12",
+                    "columnGap": "0px",
+                    "rowGap": "0px",
+                    "customRowClasses": "bb-punti-cardine-images-row",
+                    "customColumnsClasses": "bb-punti-cardine-images-column",
+                    "attributes": [],
+                    "elements": [
+                        {
+                            "key": "imagesgroup",
+                            "value": {
+                                "idGallery": 3,
+                                "type": "gallery",
+                                "showCaption": false,
+                                "showTitle": false,
+                                "showDescription": true,
+                                "settings": {
+                                    "extendClassesToImages": true,
+                                    "id": "gallery-features",
+                                    "customClasses": "gallery-features",
+                                    "inlineStyle": "",
+                                    "attributes": []
+                                }
+                            },
+                            "imagesgroup": {
+                                "gallery": {
+                                    "name": "Gallery Features",
+                                    "description": "Gallery con immagini delle features.",
+                                    "slug": "gallery-features"
+                                },
+                                "images": [
+                                    {
+                                        "url": "img/gallery-1.jpg",
+                                        "title": "",
+                                        "description": "Feature 1",
+                                        "caption": "",
+                                        "idImage": 10
+                                    },
+                                    {
+                                        "url": "img/gallery-2.jpg",
+                                        "title": "",
+                                        "description": "Feature 2",
+                                        "caption": "",
+                                        "idImage": 11
+                                    },
+                                    {
+                                        "url": "img/gallery-3.jpg",
+                                        "title": "",
+                                        "description": "Feature 3",
+                                        "caption": "",
+                                        "idImage": 12
+                                    },
+                                    {
+                                        "url": "img/gallery-4.jpg",
+                                        "title": "",
+                                        "description": "Feature 4",
+                                        "caption": "",
+                                        "idImage": 13
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "responsiveCode": "12",
+                    "columnGap": "0px",
+                    "rowGap": "0px",
+                    "customRowClasses": "bb-prodotti-text-row",
+                    "customColumnsClasses": "bb-prodotti-text-column",
+                    "attributes": [],
+                    "elements": [
+                        {
+                            "key": "text",
+                            "value": {
+                                "content": "I nostri prodotti",
+                                "settings": {
+                                    "id": "",
+                                    "elementClasses": "",
+                                    "attributes": [],
+                                    "textSize": "25px",
+                                    "textColor": "#0C0908",
+                                    "textAlignment": "center", 
+                                    "inlineStyle": "text-transform: uppercase; font-weight: 800; font-family: 'Libre Franklin', sans-serif; line-height: 25px;"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "responsiveCode": "12",
+                    "columnGap": "0px",
+                    "rowGap": "0px",
+                    "customRowClasses": "bb-prodotti-row",
+                    "customColumnsClasses": "bb-prodotti-column",
+                    "attributes": [],
+                    "elements": [
+                        {
+                            "key": "bbsway-products",
+                            "value": {
+                                "itemsToReturn": 4,
+                                "singleProductClasses": "prodotto",
+                                "singleProductInlineStyle": "",
+                                "settings": {
+                                    "id": "bbsway-products-homepage",
+                                    "customClasses": "bbsway-products-homepage",
+                                    "inlineStyle": "",
+                                    "attributes": []
+                                }
+                            },
+                            "bbswayProducts": 
+                            [
+                                {
+                                    "productImageUrl": "img/nature-logo.png",
+                                    "title": "Prodotto 1",
+                                    "idCategory": 1,
+                                    "categoryDescription": "Category 1",
+                                    "productUrl": "/product/example-product"
+                                },
+                                {
+                                    "url": "img/tinta-logo.png",
+                                    "title": "Prodotto 2",
+                                    "idCategory": 2,
+                                    "categoryDescription": "Category 2",
+                                    "productUrl": "/product/example-product"
+                                },
+                                {
+                                    "url": "img/barbiere-logo.png",
+                                    "title": "Prodotto 3",
+                                    "idCategory": 2,
+                                    "categoryDescription": "Category 2",
+                                    "productUrl": "/product/example-product"
+                                },
+                                {
+                                    "url": "img/utensili-logo.png",
+                                    "title": "Prodotto 4",
+                                    "idCategory": 1,
+                                    "categoryDescription": "Category 1",
+                                    "productUrl": "/product/example-product"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "responsiveCode": "6-6",
+                    "columnGap": "0px",
+                    "rowGap": "0px",
+                    "customRowClasses": "bb-mission-text-row",
+                    "customColumnsClasses": "bb-mission-text-column",
+                    "attributes": [],
+                    "elements": [
+                        {
+                            "key": "text",
+                            "value": {
+                                "content": "La nostra mission",
+                                "settings": {
+                                    "id": "",
+                                    "elementClasses": "",
+                                    "attributes": [],
+                                    "textSize": "25px",
+                                    "textColor": "#0C0908",
+                                    "textAlignment": "center", 
+                                    "inlineStyle": "text-transform: uppercase; font-weight: 800;    font-family: 'Libre Franklin', sans-serif;line-height: 25px;"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "responsiveCode": "6-6",
+                    "columnGap": "0px",
+                    "rowGap": "0px",
+                    "customRowClasses": "bb-prodotti-text-row",
+                    "customColumnsClasses": "bb-prodotti-text-column",
+                    "attributes": [],
+                    "elements": [
+                        {
+                            "key": "video",
+                            "value": {
+                                "urlMp4": "https://www.youtube.com/embed/xfHBMNs3SjU",
+                                "urlOgg": "",
+                                "urlPoster": "",
+                                "behaviours": {
+                                    "showControls": false,
+                                    "loopVideo": true,
+                                    "muteVideo": true,
+                                    "playInlineOnMobileDevices": true,
+                                    "lazyLoadVideo": false,
+                                    "autoplay": true
+                                },
+                                "settings": {
+                                    "id": "",
+                                    "customClasses": "",
+                                    "inlineStyle": "",
+                                    "attributes": []
+                                }
+                            }
+                        },
+                        {
+                            "key": "html",
+                            "value": {
+                                "content": "<span style=\"text-align: justify;\">\"Progettiamo e realizziamo prodotti per un certo motivo che si distinguono per la qualit&agrave;, l'innovazione tecnologica e una filosofia incentrata sul risparmio energetico e sull'ecosostenibilit&agrave;Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque illo voluptatibus consequatur corporis iusto ab, corrupti assumenda iure ipsam ex distinctio, error quo pariatur non nostrum tempora consequuntur! Temporibus, error!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque illo voluptatibus consequatur corporis iusto ab, corrupti assumenda iure ipsam ex distinctio, error quo pariatur non nostrum tempora consequuntur! Temporibus, error!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque illo voluptatibus consequatur corporis iusto ab, corrupti assumenda iure ipsam ex distinctio, error quo pariatur non nostrum tempora consequuntur!\".</span>",
+                                "settings": {
+                                    "id": "our-mission-desc"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "responsiveCode": "12",
+                    "columnGap": "0px",
+                    "rowGap": "0px",
+                    "customRowClasses": "bb-blog-subtitle-text-row",
+                    "customColumnsClasses": "bb-blog-subtitle-text-column",
+                    "attributes": [],
+                    "elements": [
+                        {
+                            "key": "text",
+                            "value": {
+                                "content": "Ultime News",
+                                "settings": {
+                                    "id": "",
+                                    "elementClasses": "emula-h3",
+                                    "attributes": [],
+                                    "textSize": "16px",
+                                    "textColor": "#cb906d",
+                                    "textAlignment": "center", 
+                                    "inlineStyle": "text-transform: uppercase; font-weight: 600;font-family: 'Libre Franklin', sans-serif;padding-bottom: 0.3em;"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "responsiveCode": "12",
+                    "columnGap": "0px",
+                    "rowGap": "0px",
+                    "customRowClasses": "bb-blog-title-text-row",
+                    "customColumnsClasses": "bb-blog-title-text-column",
+                    "attributes": [],
+                    "elements": [
+                        {
+                            "key": "text",
+                            "value": {
+                                "content": "Dal nostro blog",
+                                "settings": {
+                                    "id": "",
+                                    "elementClasses": "emula-h2",
+                                    "attributes": [],
+                                    "textSize": "25px",
+                                    "textColor": "#0C0908",
+                                    "textAlignment": "center", 
+                                    "inlineStyle": "font-weight: 800;    line-height: 25px;    font-family: 'Libre Franklin', sans-serif;    text-transform: uppercase;"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "responsiveCode": "12",
+                    "columnGap": "0px",
+                    "rowGap": "0px",
+                    "customRowClasses": "bb-blog-row",
+                    "customColumnsClasses": "bb-blog-column",
+                    "attributes": [],
+                    "elements": [
+                        {
+                            "key": "blog",
+                            "value": {
+                                "categories": [1, 2], 
+                                "itemsToReturn": 3, 
+                                "orderByColumn": "createdAt", 
+                                "orderType": "desc",
+                                "settings": {
+                                    "id": "blog-container",
+                                    "customClasses": "blog-posts",
+                                    "inlineStyle": "",
+                                    "attributes": []
+                                }
+                            },
+                            "categories": [
+                                { 
+                                    "id": 1,
+                                    "description": "Categoria 1"
+                                },
+                                {
+                                    "id": 2,
+                                    "description": "Categoria 2"
+                                }
+                            ],
+                            "posts": [
+                                {
+                                    "id": 3,
+                                    "title": "Titolo 3",
+                                    "intro": "Introduzione breve Titolo 3",
+                                    "urlImage": "https://image.shutterstock.com/image-vector/wind-turbine-icon-600w-424483717.jpg"
+                                },
+                                {
+                                    "id": 2,
+                                    "title": "Titolo 2",
+                                    "intro": "Introduzione breve Titolo 2",
+                                    "urlImage": "https://image.shutterstock.com/image-vector/wind-turbine-icon-600w-424483717.jpg"
+                                },
+                                {
+                                    "id": 1,
+                                    "title": "Titolo 1",
+                                    "intro": "Introduzione breve Titolo 1",
+                                    "urlImage": "https://image.shutterstock.com/image-vector/wind-turbine-icon-600w-424483717.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "responsiveCode": "12",
+                    "columnGap": "0px",
+                    "rowGap": "0px",
+                    "customRowClasses": "bb-footer-row",
+                    "customColumnsClasses": "bb-footer-column",
+                    "attributes": [],
+                    "elements": [
+                        {
+                            "key": "text",
+                            "value": {
+                                "content": "Footer di esempio",
+                                "settings": {
+                                    "id": "footer",
+                                    "elementClasses": "",
+                                    "attributes": [
+                                        { "data-htmlelement": "small" }
+                                    ],
+                                    "textSize": "8px",
+                                    "textColor": "#000000",
+                                    "textAlignment": "center", 
+                                    "inlineStyle": "text-transform: uppercase; font-weight: bold;"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ],
+            "md": 
+            [
+                {
+                    "responsiveCode": "2-10",
+                    "columnGap": "0px",
+                    "rowGap": "0px",
+                    "customRowClasses": "bb-header",
+                    "customColumnsClasses": "bb-header-column",
+                    "attributes": [],
+                    "elements": [
+                        {
+                            "key": "imagesgroup",
+                            "value": {
+                                "idGallery": 1,
+                                "type": "gallery",
+                                "showCaption": false,
+                                "showTitle": false,
+                                "showDescription": false,
+                                "settings": {
+                                    "extendClassesToImages": true,
+                                    "id": "header-logo",
+                                    "customClasses": "header-logo",
+                                    "inlineStyle": "",
+                                    "attributes": []
+                                }
+                            },
+                            "imagesgroup": {
+                                "gallery": {
+                                    "name": "Logo",
+                                    "description": "Logo",
+                                    "slug": "gallery-logo"
+                                },
+                                "images": [
+                                    {
+                                        "url": "https://www.olimpiaclubcomo.it/wp-content/uploads/2019/02/instagram-logo-color-256.png",
+                                        "title": "",
+                                        "description": "",
+                                        "caption": "",
+                                        "idImage": 0
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "key": "menu",
+                            "value": {
+                                "idMenu": 2,
+                                "settings": {
+                                    "id": "header-menu",
+                                    "customClasses": "header-menu",
+                                    "inlineStyle": "",
+                                    "attributes": []
+                                },
+                                "menu": {
+                                    "id": 2,
+                                    "description": "Menù Header",
+                                    "items": [
+                                        {
+                                            "id": 3,
+                                            "name": "Item 1",
+                                            "idMenu": 2,
+                                            "idFather": null,
+                                            "isPost": false,
+                                            "isPage": false,
+                                            "idEntity": null,
+                                            "link": "#",
+                                            "order": 1,
+                                            "subMenu": [
+                                                {
+                                                    "id": 7,
+                                                    "name": "Google",
+                                                    "idMenu": 2,
+                                                    "idFather": 3,
+                                                    "isPost": false,
+                                                    "isPage": false,
+                                                    "idEntity": null,
+                                                    "link": "https://google.it",
+                                                    "order": 1,
+                                                    "subMenu": []
+                                                },
+                                                {
+                                                    "id": 8,
+                                                    "name": "Facebook",
+                                                    "idMenu": 2,
+                                                    "idFather": 3,
+                                                    "isPost": false,
+                                                    "isPage": false,
+                                                    "idEntity": null,
+                                                    "link": "https://facebook.it",
+                                                    "order": 2,
+                                                    "subMenu": []
+                                                },
+                                                {
+                                                    "id": 9,
+                                                    "name": "Instagram",
+                                                    "idMenu": 2,
+                                                    "idFather": 3,
+                                                    "isPost": false,
+                                                    "isPage": false,
+                                                    "idEntity": null,
+                                                    "link": "https://instagram.it",
+                                                    "order": 3,
+                                                    "subMenu": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": 12,
+                                            "name": "Item 2",
+                                            "idMenu": 2,
+                                            "idFather": null,
+                                            "isPost": false,
+                                            "isPage": false,
+                                            "idEntity": null,
+                                            "link": "#",
+                                            "order": 2
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "responsiveCode": "12",
+                    "columnGap": "0px",
+                    "rowGap": "0px",
+                    "customRowClasses": "bb-slideshow-row",
+                    "customColumnsClasses": "bb-slideshow-column",
+                    "attributes": [],
+                    "elements": [
+                        {
+                            "key": "imagesgroup",
+                            "value": {
+                                "idGallery": 2,
+                                "type": "slideshow",
+                                "showCaption": false,
+                                "showTitle": true,
+                                "showDescription": true,
+                                "settings": {
+                                    "extendClassesToImages": true,
+                                    "id": "header-logo",
+                                    "customClasses": "header-logo",
+                                    "inlineStyle": "",
+                                    "attributes": []
+                                }
+                            },
+                            "imagesgroup": {
+                                "gallery": {
+                                    "name": "Homepage Slideshow",
+                                    "description": "Descrizione homepage slideshow",
+                                    "slug": "homepage-slideshow"
+                                },
+                                "images": [
+                                    {
+                                        "url": "https://image.shutterstock.com/image-illustration/wooden-pedestal-displayplatform-designblank-product-600w-1052121983.jpg",
+                                        "title": "Prodotto 1",
+                                        "description": "Descrizione del prodotto 1",
+                                        "caption": "",
+                                        "idImage": 1
+                                    },
+                                    {
+                                        "url": "https://image.shutterstock.com/image-illustration/wooden-pedestal-displayplatform-designblank-product-600w-1052121983.jpg",
+                                        "title": "Prodotto 2",
+                                        "description": "Descrizione del prodotto 2",
+                                        "caption": "",
+                                        "idImage": 0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "responsiveCode": "6-6",
+                    "columnGap": "0px",
+                    "rowGap": "0px",
+                    "customRowClasses": "bb-prodotto-evidenza-row",
+                    "customColumnsClasses": "bb-prodotto-evidenza-column",
+                    "attributes": [],
+                    "elements": [
+                        {
+                            "key": "imagesgroup",
+                            "value": {
+                                "idGallery": 1,
+                                "type": "gallery",
+                                "showCaption": false,
+                                "showTitle": false,
+                                "showDescription": false,
+                                "settings": {
+                                    "extendClassesToImages": true,
+                                    "id": "homepage-img-1",
+                                    "customClasses": "homepage-img homepage-img-first-block",
+                                    "inlineStyle": "",
+                                    "attributes": []
+                                }
+                            },
+                            "imagesgroup": {
+                                "gallery": {
+                                    "name": "Homepage Images First Block",
+                                    "description": "Images for the first block of the homepage",
+                                    "slug": "first-block-gallery"
+                                },
+                                "images": [
+                                    {
+                                        "url": "https://image.shutterstock.com/image-illustration/wooden-pedestal-displayplatform-designblank-product-600w-1052121983.jpg",
+                                        "title": "",
+                                        "description": "",
+                                        "caption": "",
+                                        "idImage": 0
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "key": "html",
+                            "value": {
+                                "content": "<p>Titoletto piccolo</p> <h2>TITOLO H2</h2> <p>Frase mediamente <strong>lunga con GRASSETTO</strong></p> <ul> <li>Feature numero: <strong>1</strong></li> <li>Feature numero: <em>2</em></li> <li>Feature numero: <span style=\"background-color: #e03e2d;\">3</span></li> </ul> <p>&nbsp;</p>",
+                                "settings": {
+                                    "id": "prodotto-in-evidenza"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "responsiveCode": "12",
+                    "columnGap": "0px",
+                    "rowGap": "0px",
+                    "customRowClasses": "bb-nostra-forza-row",
+                    "customColumnsClasses": "bb-nostra-forza-column",
+                    "attributes": [],
+                    "elements": [
+                        {
+                            "key": "html",
+                            "value": {
+                                "content": "<div class=\"riga\"> <div class=\"colonna-6\"> <div class=\"riga\"> <div class=\"colonna-6\"> <strong>Il nostro prodotto<\/strong> \u00E8 fortissimo <\/div> <div class=\"colonna-6\"> <img src=\"https:\/\/image.shutterstock.com\/image-photo\/wind-turbine-asian-mechanical-engineer-260nw-1414882847.jpg\" id=\"prodotto-fortissimo-1\" class=\"prodotto-fortissimo\" \/> <\/div> <\/div> <div class=\"riga\"> <div class=\"riga\"> <div class=\"colonna-12\"> <img src=\"https:\/\/image.shutterstock.com\/image-photo\/landscape-wind-turbines-that-produce-600w-1529737649.jpg\" id=\"prodotto-fortissimo-2\" class=\"prodotto-fortissimo\" \/> <\/div> <\/div> <div class=\"riga\"> <div class=\"colonna-12\"> <p>PROGETTI <strong>\"SU MISURA\"<\/strong><\/p> <p>La possibilit\u00E0 di customizzazione del prodotto ci rende i partner ideali per studi di progettazione che richiedono una forte personalizzazione dle prodotto!<\/p> <\/div> <\/div> <\/div> <\/div> <div class=\"colonna-6\"> <div class=\"riga\"> <div class=\"colonna-12\"> <p>PRODUTTORI AL <strong>100%<\/strong><\/p> <p>Progettando e realizzando i nostri prodotti garantiamo standard elevati e <strong>garanzia di qualit\u00E0<\/strong>.<\/p> <p>Uno <strong>standard elevato<\/strong> sotto tutti i punti di vista<\/p> <\/div> <\/div> <div class=\"riga\"> <div class=\"colonna-12\"> <img src=\"https:\/\/image.shutterstock.com\/image-photo\/greek-wind-park-on-snowed-260nw-1654044058.jpg\" id=\"prodotto-fortissimo-3\" class=\"prodotto-fortissimo\" \/> <\/div> <\/div> <\/div> <\/div>",
+                                "settings": {
+                                    "id": "la-nostra-forza"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "responsiveCode": "12",
+                    "columnGap": "0px",
+                    "rowGap": "0px",
+                    "customRowClasses": "bb-punti-cardine-text-row",
+                    "customColumnsClasses": "bb-punti-cardine-text-column",
+                    "attributes": [],
+                    "elements": [
+                        {
+                            "key": "text",
+                            "value": {
+                                "content": "I nostri punti cardine",
+                                "settings": {
+                                    "id": "",
+                                    "elementClasses": "",
+                                    "attributes": [],
+                                    "textSize": "20px",
+                                    "textColor": "#000000",
+                                    "textAlignment": "center", 
+                                    "inlineStyle": "text-transform: uppercase; font-weight: bold;"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "responsiveCode": "3-3-3-3",
+                    "columnGap": "0px",
+                    "rowGap": "0px",
+                    "customRowClasses": "bb-punti-cardine-images-row",
+                    "customColumnsClasses": "bb-punti-cardine-images-column",
+                    "attributes": [],
+                    "elements": [
+                        {
+                            "key": "imagesgroup",
+                            "value": {
+                                "idGallery": 3,
+                                "type": "gallery",
+                                "showCaption": false,
+                                "showTitle": false,
+                                "showDescription": true,
+                                "settings": {
+                                    "extendClassesToImages": true,
+                                    "id": "gallery-features",
+                                    "customClasses": "gallery-features",
+                                    "inlineStyle": "",
+                                    "attributes": []
+                                }
+                            },
+                            "imagesgroup": {
+                                "gallery": {
+                                    "name": "Gallery Features",
+                                    "description": "Gallery con immagini delle features.",
+                                    "slug": "gallery-features"
+                                },
+                                "images": [
+                                    {
+                                        "url": "https://image.shutterstock.com/image-vector/privacy-mode-icon-security-feature-600w-665157262.jpg",
+                                        "title": "",
+                                        "description": "Feature 1",
+                                        "caption": "",
+                                        "idImage": 10
+                                    },
+                                    {
+                                        "url": "https://image.shutterstock.com/image-vector/privacy-mode-icon-security-feature-600w-665157262.jpg",
+                                        "title": "",
+                                        "description": "Feature 2",
+                                        "caption": "",
+                                        "idImage": 11
+                                    },
+                                    {
+                                        "url": "https://image.shutterstock.com/image-vector/privacy-mode-icon-security-feature-600w-665157262.jpg",
+                                        "title": "",
+                                        "description": "Feature 3",
+                                        "caption": "",
+                                        "idImage": 12
+                                    },
+                                    {
+                                        "url": "https://image.shutterstock.com/image-vector/privacy-mode-icon-security-feature-600w-665157262.jpg",
+                                        "title": "",
+                                        "description": "Feature 4",
+                                        "caption": "",
+                                        "idImage": 13
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "responsiveCode": "12",
+                    "columnGap": "0px",
+                    "rowGap": "0px",
+                    "customRowClasses": "bb-prodotti-text-row",
+                    "customColumnsClasses": "bb-prodotti-text-column",
+                    "attributes": [],
+                    "elements": [
+                        {
+                            "key": "text",
+                            "value": {
+                                "content": "I nostri prodotti",
+                                "settings": {
+                                    "id": "",
+                                    "elementClasses": "",
+                                    "attributes": [],
+                                    "textSize": "20px",
+                                    "textColor": "#000000",
+                                    "textAlignment": "center", 
+                                    "inlineStyle": "text-transform: uppercase; font-weight: bold;"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "responsiveCode": "3-3-3-3",
+                    "columnGap": "0px",
+                    "rowGap": "0px",
+                    "customRowClasses": "bb-prodotti-row",
+                    "customColumnsClasses": "bb-prodotti-column",
+                    "attributes": [],
+                    "elements": [
+                        {
+                            "key": "bbsway-products",
+                            "value": {
+                                "itemsToReturn": 4,
+                                "singleProductClasses": "prodotto",
+                                "singleProductInlineStyle": "",
+                                "settings": {
+                                    "id": "bbsway-products-homepage",
+                                    "customClasses": "bbsway-products-homepage",
+                                    "inlineStyle": "",
+                                    "attributes": []
+                                }
+                            },
+                            "bbswayProducts": 
+                            [
+                                {
+                                    "productImageUrl": "https://image.shutterstock.com/image-vector/privacy-mode-icon-security-feature-600w-665157262.jpg",
+                                    "title": "Prodotto 1",
+                                    "idCategory": 1,
+                                    "categoryDescription": "Category 1",
+                                    "productUrl": "/product/example-product"
+                                },
+                                {
+                                    "url": "https://image.shutterstock.com/image-vector/privacy-mode-icon-security-feature-600w-665157262.jpg",
+                                    "title": "Prodotto 2",
+                                    "idCategory": 2,
+                                    "categoryDescription": "Category 2",
+                                    "productUrl": "/product/example-product"
+                                },
+                                {
+                                    "url": "https://image.shutterstock.com/image-vector/privacy-mode-icon-security-feature-600w-665157262.jpg",
+                                    "title": "Prodotto 3",
+                                    "idCategory": 2,
+                                    "categoryDescription": "Category 2",
+                                    "productUrl": "/product/example-product"
+                                },
+                                {
+                                    "url": "https://image.shutterstock.com/image-vector/privacy-mode-icon-security-feature-600w-665157262.jpg",
+                                    "title": "Prodotto 4",
+                                    "idCategory": 1,
+                                    "categoryDescription": "Category 1",
+                                    "productUrl": "/product/example-product"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "responsiveCode": "6-6",
+                    "columnGap": "0px",
+                    "rowGap": "0px",
+                    "customRowClasses": "bb-mission-text-row",
+                    "customColumnsClasses": "bb-mission-text-column",
+                    "attributes": [],
+                    "elements": [
+                        {
+                            "key": "text",
+                            "value": {
+                                "content": "La nostra mission",
+                                "settings": {
+                                    "id": "",
+                                    "elementClasses": "",
+                                    "attributes": [],
+                                    "textSize": "20px",
+                                    "textColor": "#000000",
+                                    "textAlignment": "right", 
+                                    "inlineStyle": "text-transform: uppercase; font-weight: bold;"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "responsiveCode": "6-6",
+                    "columnGap": "0px",
+                    "rowGap": "0px",
+                    "customRowClasses": "bb-prodotti-text-row",
+                    "customColumnsClasses": "bb-prodotti-text-column",
+                    "attributes": [],
+                    "elements": [
+                        {
+                            "key": "video",
+                            "value": {
+                                "urlMp4": "https://www.youtube.com/watch?v=y7wD5uajZBI",
+                                "urlOgg": "",
+                                "urlPoster": "",
+                                "behaviours": {
+                                    "showControls": false,
+                                    "loopVideo": true,
+                                    "muteVideo": true,
+                                    "playInlineOnMobileDevices": false,
+                                    "lazyLoadVideo": true,
+                                    "autoplay": true
+                                },
+                                "settings": {
+                                    "id": "",
+                                    "customClasses": "",
+                                    "inlineStyle": "",
+                                    "attributes": []
+                                }
+                            }
+                        },
+                        {
+                            "key": "html",
+                            "value": {
+                                "content": "<p style=\"text-align: justify;\">\"Progettiamo e realizziamo prodotti per un certo motivo che si distinguono per la qualit&agrave;, l'innovazione tecnologica e una filosofia incentrata sul risparmio energetico e sull'ecosostenibilit&agrave;\".</p> <br/><br/> <a class=\"bottone bottone-verde bottone-con-freccia-destra testo-uppercase\">La nostra storia</a>",
+                                "settings": {
+                                    "id": "our-mission-desc"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "responsiveCode": "12",
+                    "columnGap": "0px",
+                    "rowGap": "0px",
+                    "customRowClasses": "bb-blog-subtitle-text-row",
+                    "customColumnsClasses": "bb-blog-subtitle-text-column",
+                    "attributes": [],
+                    "elements": [
+                        {
+                            "key": "text",
+                            "value": {
+                                "content": "Ultime News",
+                                "settings": {
+                                    "id": "",
+                                    "elementClasses": "emula-h3",
+                                    "attributes": [],
+                                    "textSize": "12px",
+                                    "textColor": "#000000",
+                                    "textAlignment": "center", 
+                                    "inlineStyle": "text-transform: uppercase; font-weight: bold;"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "responsiveCode": "12",
+                    "columnGap": "0px",
+                    "rowGap": "0px",
+                    "customRowClasses": "bb-blog-title-text-row",
+                    "customColumnsClasses": "bb-blog-title-text-column",
+                    "attributes": [],
+                    "elements": [
+                        {
+                            "key": "text",
+                            "value": {
+                                "content": "Dal nostro blog",
+                                "settings": {
+                                    "id": "",
+                                    "elementClasses": "emula-h2",
+                                    "attributes": [],
+                                    "textSize": "20px",
+                                    "textColor": "#000000",
+                                    "textAlignment": "center", 
+                                    "inlineStyle": "font-weight: bold;"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "responsiveCode": "4-4-4",
+                    "columnGap": "0px",
+                    "rowGap": "0px",
+                    "customRowClasses": "bb-blog-row",
+                    "customColumnsClasses": "bb-blog-column",
+                    "attributes": [],
+                    "elements": [
+                        {
+                            "key": "blog",
+                            "value": {
+                                "categories": [1, 2], 
+                                "itemsToReturn": 3, 
+                                "orderByColumn": "createdAt", 
+                                "orderType": "desc",
+                                "settings": {
+                                    "id": "blog-container",
+                                    "customClasses": "blog-posts",
+                                    "inlineStyle": "",
+                                    "attributes": []
+                                }
+                            },
+                            "categories": [
+                                { 
+                                    "id": 1,
+                                    "description": "Categoria 1"
+                                },
+                                {
+                                    "id": 2,
+                                    "description": "Categoria 2"
+                                }
+                            ],
+                            "posts": [
+                                {
+                                    "id": 3,
+                                    "title": "Titolo 3",
+                                    "intro": "Introduzione breve Titolo 3",
+                                    "urlImage": "https://image.shutterstock.com/image-vector/wind-turbine-icon-600w-424483717.jpg"
+                                },
+                                {
+                                    "id": 2,
+                                    "title": "Titolo 2",
+                                    "intro": "Introduzione breve Titolo 2",
+                                    "urlImage": "https://image.shutterstock.com/image-vector/wind-turbine-icon-600w-424483717.jpg"
+                                },
+                                {
+                                    "id": 1,
+                                    "title": "Titolo 1",
+                                    "intro": "Introduzione breve Titolo 1",
+                                    "urlImage": "https://image.shutterstock.com/image-vector/wind-turbine-icon-600w-424483717.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "responsiveCode": "12",
+                    "columnGap": "0px",
+                    "rowGap": "0px",
+                    "customRowClasses": "bb-footer-row",
+                    "customColumnsClasses": "bb-footer-column",
+                    "attributes": [],
+                    "elements": [
+                        {
+                            "key": "text",
+                            "value": {
+                                "content": "Footer di esempio",
+                                "settings": {
+                                    "id": "footer",
+                                    "elementClasses": "",
+                                    "attributes": [
+                                        { "data-htmlelement": "small" }
+                                    ],
+                                    "textSize": "8px",
+                                    "textColor": "#000000",
+                                    "textAlignment": "center", 
+                                    "inlineStyle": "text-transform: uppercase; font-weight: bold;"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ],
+            "sm": 
+            [
+                {
+                    "responsiveCode": "2-10",
+                    "columnGap": "0px",
+                    "rowGap": "0px",
+                    "customRowClasses": "bb-header",
+                    "customColumnsClasses": "bb-header-column",
+                    "attributes": [],
+                    "elements": [
+                        {
+                            "key": "imagesgroup",
+                            "value": {
+                                "idGallery": 1,
+                                "type": "gallery",
+                                "showCaption": false,
+                                "showTitle": false,
+                                "showDescription": false,
+                                "settings": {
+                                    "extendClassesToImages": true,
+                                    "id": "header-logo",
+                                    "customClasses": "header-logo",
+                                    "inlineStyle": "",
+                                    "attributes": []
+                                }
+                            },
+                            "imagesgroup": {
+                                "gallery": {
+                                    "name": "Logo",
+                                    "description": "Logo",
+                                    "slug": "gallery-logo"
+                                },
+                                "images": [
+                                    {
+                                        "url": "https://www.olimpiaclubcomo.it/wp-content/uploads/2019/02/instagram-logo-color-256.png",
+                                        "title": "",
+                                        "description": "",
+                                        "caption": "",
+                                        "idImage": 0
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "key": "menu",
+                            "value": {
+                                "idMenu": 2,
+                                "settings": {
+                                    "id": "header-menu",
+                                    "customClasses": "header-menu",
+                                    "inlineStyle": "",
+                                    "attributes": []
+                                },
+                                "menu": {
+                                    "id": 2,
+                                    "description": "Menù Header",
+                                    "items": [
+                                        {
+                                            "id": 3,
+                                            "name": "Item 1",
+                                            "idMenu": 2,
+                                            "idFather": null,
+                                            "isPost": false,
+                                            "isPage": false,
+                                            "idEntity": null,
+                                            "link": "#",
+                                            "order": 1,
+                                            "subMenu": [
+                                                {
+                                                    "id": 7,
+                                                    "name": "Google",
+                                                    "idMenu": 2,
+                                                    "idFather": 3,
+                                                    "isPost": false,
+                                                    "isPage": false,
+                                                    "idEntity": null,
+                                                    "link": "https://google.it",
+                                                    "order": 1,
+                                                    "subMenu": []
+                                                },
+                                                {
+                                                    "id": 8,
+                                                    "name": "Facebook",
+                                                    "idMenu": 2,
+                                                    "idFather": 3,
+                                                    "isPost": false,
+                                                    "isPage": false,
+                                                    "idEntity": null,
+                                                    "link": "https://facebook.it",
+                                                    "order": 2,
+                                                    "subMenu": []
+                                                },
+                                                {
+                                                    "id": 9,
+                                                    "name": "Instagram",
+                                                    "idMenu": 2,
+                                                    "idFather": 3,
+                                                    "isPost": false,
+                                                    "isPage": false,
+                                                    "idEntity": null,
+                                                    "link": "https://instagram.it",
+                                                    "order": 3,
+                                                    "subMenu": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": 12,
+                                            "name": "Item 2",
+                                            "idMenu": 2,
+                                            "idFather": null,
+                                            "isPost": false,
+                                            "isPage": false,
+                                            "idEntity": null,
+                                            "link": "#",
+                                            "order": 2
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "responsiveCode": "12",
+                    "columnGap": "0px",
+                    "rowGap": "0px",
+                    "customRowClasses": "bb-slideshow-row",
+                    "customColumnsClasses": "bb-slideshow-column",
+                    "attributes": [],
+                    "elements": [
+                        {
+                            "key": "imagesgroup",
+                            "value": {
+                                "idGallery": 2,
+                                "type": "slideshow",
+                                "showCaption": false,
+                                "showTitle": true,
+                                "showDescription": true,
+                                "settings": {
+                                    "extendClassesToImages": true,
+                                    "id": "header-logo",
+                                    "customClasses": "header-logo",
+                                    "inlineStyle": "",
+                                    "attributes": []
+                                }
+                            },
+                            "imagesgroup": {
+                                "gallery": {
+                                    "name": "Homepage Slideshow",
+                                    "description": "Descrizione homepage slideshow",
+                                    "slug": "homepage-slideshow"
+                                },
+                                "images": [
+                                    {
+                                        "url": "https://image.shutterstock.com/image-illustration/wooden-pedestal-displayplatform-designblank-product-600w-1052121983.jpg",
+                                        "title": "Prodotto 1",
+                                        "description": "Descrizione del prodotto 1",
+                                        "caption": "",
+                                        "idImage": 1
+                                    },
+                                    {
+                                        "url": "https://image.shutterstock.com/image-illustration/wooden-pedestal-displayplatform-designblank-product-600w-1052121983.jpg",
+                                        "title": "Prodotto 2",
+                                        "description": "Descrizione del prodotto 2",
+                                        "caption": "",
+                                        "idImage": 0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "responsiveCode": "6-6",
+                    "columnGap": "0px",
+                    "rowGap": "0px",
+                    "customRowClasses": "bb-prodotto-evidenza-row",
+                    "customColumnsClasses": "bb-prodotto-evidenza-column",
+                    "attributes": [],
+                    "elements": [
+                        {
+                            "key": "imagesgroup",
+                            "value": {
+                                "idGallery": 1,
+                                "type": "gallery",
+                                "showCaption": false,
+                                "showTitle": false,
+                                "showDescription": false,
+                                "settings": {
+                                    "extendClassesToImages": true,
+                                    "id": "homepage-img-1",
+                                    "customClasses": "homepage-img homepage-img-first-block",
+                                    "inlineStyle": "",
+                                    "attributes": []
+                                }
+                            },
+                            "imagesgroup": {
+                                "gallery": {
+                                    "name": "Homepage Images First Block",
+                                    "description": "Images for the first block of the homepage",
+                                    "slug": "first-block-gallery"
+                                },
+                                "images": [
+                                    {
+                                        "url": "https://image.shutterstock.com/image-illustration/wooden-pedestal-displayplatform-designblank-product-600w-1052121983.jpg",
+                                        "title": "",
+                                        "description": "",
+                                        "caption": "",
+                                        "idImage": 0
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "key": "html",
+                            "value": {
+                                "content": "<p>Titoletto piccolo</p> <h2>TITOLO H2</h2> <p>Frase mediamente <strong>lunga con GRASSETTO</strong></p> <ul> <li>Feature numero: <strong>1</strong></li> <li>Feature numero: <em>2</em></li> <li>Feature numero: <span style=\"background-color: #e03e2d;\">3</span></li> </ul> <p>&nbsp;</p>",
+                                "settings": {
+                                    "id": "prodotto-in-evidenza"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "responsiveCode": "12",
+                    "columnGap": "0px",
+                    "rowGap": "0px",
+                    "customRowClasses": "bb-nostra-forza-row",
+                    "customColumnsClasses": "bb-nostra-forza-column",
+                    "attributes": [],
+                    "elements": [
+                        {
+                            "key": "html",
+                            "value": {
+                                "content": "<div class=\"riga\"> <div class=\"colonna-6\"> <div class=\"riga\"> <div class=\"colonna-6\"> <strong>Il nostro prodotto<\/strong> \u00E8 fortissimo <\/div> <div class=\"colonna-6\"> <img src=\"https:\/\/image.shutterstock.com\/image-photo\/wind-turbine-asian-mechanical-engineer-260nw-1414882847.jpg\" id=\"prodotto-fortissimo-1\" class=\"prodotto-fortissimo\" \/> <\/div> <\/div> <div class=\"riga\"> <div class=\"riga\"> <div class=\"colonna-12\"> <img src=\"https:\/\/image.shutterstock.com\/image-photo\/landscape-wind-turbines-that-produce-600w-1529737649.jpg\" id=\"prodotto-fortissimo-2\" class=\"prodotto-fortissimo\" \/> <\/div> <\/div> <div class=\"riga\"> <div class=\"colonna-12\"> <p>PROGETTI <strong>\"SU MISURA\"<\/strong><\/p> <p>La possibilit\u00E0 di customizzazione del prodotto ci rende i partner ideali per studi di progettazione che richiedono una forte personalizzazione dle prodotto!<\/p> <\/div> <\/div> <\/div> <\/div> <div class=\"colonna-6\"> <div class=\"riga\"> <div class=\"colonna-12\"> <p>PRODUTTORI AL <strong>100%<\/strong><\/p> <p>Progettando e realizzando i nostri prodotti garantiamo standard elevati e <strong>garanzia di qualit\u00E0<\/strong>.<\/p> <p>Uno <strong>standard elevato<\/strong> sotto tutti i punti di vista<\/p> <\/div> <\/div> <div class=\"riga\"> <div class=\"colonna-12\"> <img src=\"https:\/\/image.shutterstock.com\/image-photo\/greek-wind-park-on-snowed-260nw-1654044058.jpg\" id=\"prodotto-fortissimo-3\" class=\"prodotto-fortissimo\" \/> <\/div> <\/div> <\/div> <\/div>",
+                                "settings": {
+                                    "id": "la-nostra-forza"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "responsiveCode": "12",
+                    "columnGap": "0px",
+                    "rowGap": "0px",
+                    "customRowClasses": "bb-punti-cardine-text-row",
+                    "customColumnsClasses": "bb-punti-cardine-text-column",
+                    "attributes": [],
+                    "elements": [
+                        {
+                            "key": "text",
+                            "value": {
+                                "content": "I nostri punti cardine",
+                                "settings": {
+                                    "id": "",
+                                    "elementClasses": "",
+                                    "attributes": [],
+                                    "textSize": "25px",
+                                    "textColor": "#0C0908",
+                                    "textAlignment": "center", 
+                                    "inlineStyle": "text-transform: uppercase; font-weight: 800; line-height: 25px; font-family: 'Libre Franklin', sans-serif;"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "responsiveCode": "3-3-3-3",
+                    "columnGap": "0px",
+                    "rowGap": "0px",
+                    "customRowClasses": "bb-punti-cardine-images-row",
+                    "customColumnsClasses": "bb-punti-cardine-images-column",
+                    "attributes": [],
+                    "elements": [
+                        {
+                            "key": "imagesgroup",
+                            "value": {
+                                "idGallery": 3,
+                                "type": "gallery",
+                                "showCaption": false,
+                                "showTitle": false,
+                                "showDescription": true,
+                                "settings": {
+                                    "extendClassesToImages": true,
+                                    "id": "gallery-features",
+                                    "customClasses": "gallery-features",
+                                    "inlineStyle": "",
+                                    "attributes": []
+                                }
+                            },
+                            "imagesgroup": {
+                                "gallery": {
+                                    "name": "Gallery Features",
+                                    "description": "Gallery con immagini delle features.",
+                                    "slug": "gallery-features"
+                                },
+                                "images": [
+                                    {
+                                        "url": "https://image.shutterstock.com/image-vector/privacy-mode-icon-security-feature-600w-665157262.jpg",
+                                        "title": "",
+                                        "description": "Feature 1",
+                                        "caption": "",
+                                        "idImage": 10
+                                    },
+                                    {
+                                        "url": "https://image.shutterstock.com/image-vector/privacy-mode-icon-security-feature-600w-665157262.jpg",
+                                        "title": "",
+                                        "description": "Feature 2",
+                                        "caption": "",
+                                        "idImage": 11
+                                    },
+                                    {
+                                        "url": "https://image.shutterstock.com/image-vector/privacy-mode-icon-security-feature-600w-665157262.jpg",
+                                        "title": "",
+                                        "description": "Feature 3",
+                                        "caption": "",
+                                        "idImage": 12
+                                    },
+                                    {
+                                        "url": "https://image.shutterstock.com/image-vector/privacy-mode-icon-security-feature-600w-665157262.jpg",
+                                        "title": "",
+                                        "description": "Feature 4",
+                                        "caption": "",
+                                        "idImage": 13
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "responsiveCode": "12",
+                    "columnGap": "0px",
+                    "rowGap": "0px",
+                    "customRowClasses": "bb-prodotti-text-row",
+                    "customColumnsClasses": "bb-prodotti-text-column",
+                    "attributes": [],
+                    "elements": [
+                        {
+                            "key": "text",
+                            "value": {
+                                "content": "I nostri prodotti",
+                                "settings": {
+                                    "id": "",
+                                    "elementClasses": "",
+                                    "attributes": [],
+                                    "textSize": "20px",
+                                    "textColor": "#000000",
+                                    "textAlignment": "center", 
+                                    "inlineStyle": "text-transform: uppercase; font-weight: bold;"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "responsiveCode": "3-3-3-3",
+                    "columnGap": "0px",
+                    "rowGap": "0px",
+                    "customRowClasses": "bb-prodotti-row",
+                    "customColumnsClasses": "bb-prodotti-column",
+                    "attributes": [],
+                    "elements": [
+                        {
+                            "key": "bbsway-products",
+                            "value": {
+                                "itemsToReturn": 4,
+                                "singleProductClasses": "prodotto",
+                                "singleProductInlineStyle": "",
+                                "settings": {
+                                    "id": "bbsway-products-homepage",
+                                    "customClasses": "bbsway-products-homepage",
+                                    "inlineStyle": "",
+                                    "attributes": []
+                                }
+                            },
+                            "bbswayProducts": 
+                            [
+                                {
+                                    "productImageUrl": "https://image.shutterstock.com/image-vector/privacy-mode-icon-security-feature-600w-665157262.jpg",
+                                    "title": "Prodotto 1",
+                                    "idCategory": 1,
+                                    "categoryDescription": "Category 1",
+                                    "productUrl": "/product/example-product"
+                                },
+                                {
+                                    "url": "https://image.shutterstock.com/image-vector/privacy-mode-icon-security-feature-600w-665157262.jpg",
+                                    "title": "Prodotto 2",
+                                    "idCategory": 2,
+                                    "categoryDescription": "Category 2",
+                                    "productUrl": "/product/example-product"
+                                },
+                                {
+                                    "url": "https://image.shutterstock.com/image-vector/privacy-mode-icon-security-feature-600w-665157262.jpg",
+                                    "title": "Prodotto 3",
+                                    "idCategory": 2,
+                                    "categoryDescription": "Category 2",
+                                    "productUrl": "/product/example-product"
+                                },
+                                {
+                                    "url": "https://image.shutterstock.com/image-vector/privacy-mode-icon-security-feature-600w-665157262.jpg",
+                                    "title": "Prodotto 4",
+                                    "idCategory": 1,
+                                    "categoryDescription": "Category 1",
+                                    "productUrl": "/product/example-product"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "responsiveCode": "6-6",
+                    "columnGap": "0px",
+                    "rowGap": "0px",
+                    "customRowClasses": "bb-mission-text-row",
+                    "customColumnsClasses": "bb-mission-text-column",
+                    "attributes": [],
+                    "elements": [
+                        {
+                            "key": "text",
+                            "value": {
+                                "content": "La nostra mission",
+                                "settings": {
+                                    "id": "",
+                                    "elementClasses": "",
+                                    "attributes": [],
+                                    "textSize": "20px",
+                                    "textColor": "#000000",
+                                    "textAlignment": "right", 
+                                    "inlineStyle": "text-transform: uppercase; font-weight: bold;"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "responsiveCode": "6-6",
+                    "columnGap": "0px",
+                    "rowGap": "0px",
+                    "customRowClasses": "bb-prodotti-text-row",
+                    "customColumnsClasses": "bb-prodotti-text-column",
+                    "attributes": [],
+                    "elements": [
+                        {
+                            "key": "video",
+                            "value": {
+                                "urlMp4": "https://www.youtube.com/watch?v=y7wD5uajZBI",
+                                "urlOgg": "",
+                                "urlPoster": "",
+                                "behaviours": {
+                                    "showControls": false,
+                                    "loopVideo": true,
+                                    "muteVideo": true,
+                                    "playInlineOnMobileDevices": false,
+                                    "lazyLoadVideo": true,
+                                    "autoplay": true
+                                },
+                                "settings": {
+                                    "id": "",
+                                    "customClasses": "",
+                                    "inlineStyle": "",
+                                    "attributes": []
+                                }
+                            }
+                        },
+                        {
+                            "key": "html",
+                            "value": {
+                                "content": "<p style=\"text-align: justify;\">\"Progettiamo e realizziamo prodotti per un certo motivo che si distinguono per la qualit&agrave;, l'innovazione tecnologica e una filosofia incentrata sul risparmio energetico e sull'ecosostenibilit&agrave;\".</p> <br/><br/> <a class=\"bottone bottone-verde bottone-con-freccia-destra testo-uppercase\">La nostra storia</a>",
+                                "settings": {
+                                    "id": "our-mission-desc"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "responsiveCode": "12",
+                    "columnGap": "0px",
+                    "rowGap": "0px",
+                    "customRowClasses": "bb-blog-subtitle-text-row",
+                    "customColumnsClasses": "bb-blog-subtitle-text-column",
+                    "attributes": [],
+                    "elements": [
+                        {
+                            "key": "text",
+                            "value": {
+                                "content": "Ultime News",
+                                "settings": {
+                                    "id": "",
+                                    "elementClasses": "emula-h3",
+                                    "attributes": [],
+                                    "textSize": "12px",
+                                    "textColor": "#000000",
+                                    "textAlignment": "center", 
+                                    "inlineStyle": "text-transform: uppercase; font-weight: bold;"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "responsiveCode": "12",
+                    "columnGap": "0px",
+                    "rowGap": "0px",
+                    "customRowClasses": "bb-blog-title-text-row",
+                    "customColumnsClasses": "bb-blog-title-text-column",
+                    "attributes": [],
+                    "elements": [
+                        {
+                            "key": "text",
+                            "value": {
+                                "content": "Dal nostro blog",
+                                "settings": {
+                                    "id": "",
+                                    "elementClasses": "emula-h2",
+                                    "attributes": [],
+                                    "textSize": "20px",
+                                    "textColor": "#000000",
+                                    "textAlignment": "center", 
+                                    "inlineStyle": "font-weight: bold;"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "responsiveCode": "4-4-4",
+                    "columnGap": "0px",
+                    "rowGap": "0px",
+                    "customRowClasses": "bb-blog-row",
+                    "customColumnsClasses": "bb-blog-column",
+                    "attributes": [],
+                    "elements": [
+                        {
+                            "key": "blog",
+                            "value": {
+                                "categories": [1, 2], 
+                                "itemsToReturn": 3, 
+                                "orderByColumn": "createdAt", 
+                                "orderType": "desc",
+                                "settings": {
+                                    "id": "blog-container",
+                                    "customClasses": "blog-posts",
+                                    "inlineStyle": "",
+                                    "attributes": []
+                                }
+                            },
+                            "categories": [
+                                { 
+                                    "id": 1,
+                                    "description": "Categoria 1"
+                                },
+                                {
+                                    "id": 2,
+                                    "description": "Categoria 2"
+                                }
+                            ],
+                            "posts": [
+                                {
+                                    "id": 3,
+                                    "title": "Titolo 3",
+                                    "intro": "15/08/20",
+                                    "urlImage": "img/gallery-1.jpg"
+                                },
+                                {
+                                    "id": 2,
+                                    "title": "Titolo 2",
+                                    "intro": "15/08/20",
+                                    "urlImage": "img/slider-2.jpg"
+                                },
+                                {
+                                    "id": 1,
+                                    "title": "Titolo 1",
+                                    "intro": "15/08/20",
+                                    "urlImage": "https://image.shutterstock.com/image-vector/wind-turbine-icon-600w-424483717.jpg"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "responsiveCode": "12",
+                    "columnGap": "0px",
+                    "rowGap": "0px",
+                    "customRowClasses": "bb-footer-row",
+                    "customColumnsClasses": "bb-footer-column",
+                    "attributes": [],
+                    "elements": [
+                        {
+                            "key": "text",
+                            "value": {
+                                "content": "Footer di esempio",
+                                "settings": {
+                                    "id": "footer",
+                                    "elementClasses": "",
+                                    "attributes": [
+                                        { "data-htmlelement": "small" }
+                                    ],
+                                    "textSize": "8px",
+                                    "textColor": "#000000",
+                                    "textAlignment": "center", 
+                                    "inlineStyle": "text-transform: uppercase; font-weight: bold;"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ],
+            "xs": 
+            [
+                {
+                    "responsiveCode": "2-10",
+                    "columnGap": "0px",
+                    "rowGap": "0px",
+                    "customRowClasses": "bb-header",
+                    "customColumnsClasses": "bb-header-column",
+                    "attributes": [],
+                    "elements": [
+                        {
+                            "key": "imagesgroup",
+                            "value": {
+                                "idGallery": 1,
+                                "type": "gallery",
+                                "showCaption": false,
+                                "showTitle": false,
+                                "showDescription": false,
+                                "settings": {
+                                    "extendClassesToImages": true,
+                                    "id": "header-logo",
+                                    "customClasses": "header-logo",
+                                    "inlineStyle": "",
+                                    "attributes": []
+                                }
+                            },
+                            "imagesgroup": {
+                                "gallery": {
+                                    "name": "Logo",
+                                    "description": "Logo",
+                                    "slug": "gallery-logo"
+                                },
+                                "images": [
+                                    {
+                                        "url": "https://www.olimpiaclubcomo.it/wp-content/uploads/2019/02/instagram-logo-color-256.png",
+                                        "title": "",
+                                        "description": "",
+                                        "caption": "",
+                                        "idImage": 0
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "key": "menu",
+                            "value": {
+                                "idMenu": 2,
+                                "settings": {
+                                    "id": "header-menu",
+                                    "customClasses": "header-menu",
+                                    "inlineStyle": "",
+                                    "attributes": []
+                                },
+                                "menu": {
+                                    "id": 2,
+                                    "description": "Menù Header",
+                                    "items": [
+                                        {
+                                            "id": 3,
+                                            "name": "Item 1",
+                                            "idMenu": 2,
+                                            "idFather": null,
+                                            "isPost": false,
+                                            "isPage": false,
+                                            "idEntity": null,
+                                            "link": "#",
+                                            "order": 1,
+                                            "subMenu": [
+                                                {
+                                                    "id": 7,
+                                                    "name": "Google",
+                                                    "idMenu": 2,
+                                                    "idFather": 3,
+                                                    "isPost": false,
+                                                    "isPage": false,
+                                                    "idEntity": null,
+                                                    "link": "https://google.it",
+                                                    "order": 1,
+                                                    "subMenu": []
+                                                },
+                                                {
+                                                    "id": 8,
+                                                    "name": "Facebook",
+                                                    "idMenu": 2,
+                                                    "idFather": 3,
+                                                    "isPost": false,
+                                                    "isPage": false,
+                                                    "idEntity": null,
+                                                    "link": "https://facebook.it",
+                                                    "order": 2,
+                                                    "subMenu": []
+                                                },
+                                                {
+                                                    "id": 9,
+                                                    "name": "Instagram",
+                                                    "idMenu": 2,
+                                                    "idFather": 3,
+                                                    "isPost": false,
+                                                    "isPage": false,
+                                                    "idEntity": null,
+                                                    "link": "https://instagram.it",
+                                                    "order": 3,
+                                                    "subMenu": []
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "id": 12,
+                                            "name": "Item 2",
+                                            "idMenu": 2,
+                                            "idFather": null,
+                                            "isPost": false,
+                                            "isPage": false,
+                                            "idEntity": null,
+                                            "link": "#",
+                                            "order": 2
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "responsiveCode": "12",
+                    "columnGap": "0px",
+                    "rowGap": "0px",
+                    "customRowClasses": "bb-slideshow-row",
+                    "customColumnsClasses": "bb-slideshow-column",
+                    "attributes": [],
+                    "elements": [
+                        {
+                            "key": "imagesgroup",
+                            "value": {
+                                "idGallery": 2,
+                                "type": "slideshow",
+                                "showCaption": false,
+                                "showTitle": true,
+                                "showDescription": true,
+                                "settings": {
+                                    "extendClassesToImages": true,
+                                    "id": "header-logo",
+                                    "customClasses": "header-logo",
+                                    "inlineStyle": "",
+                                    "attributes": []
+                                }
+                            },
+                            "imagesgroup": {
+                                "gallery": {
+                                    "name": "Homepage Slideshow",
+                                    "description": "Descrizione homepage slideshow",
+                                    "slug": "homepage-slideshow"
+                                },
+                                "images": [
+                                    {
+                                        "url": "https://image.shutterstock.com/image-illustration/wooden-pedestal-displayplatform-designblank-product-600w-1052121983.jpg",
+                                        "title": "Prodotto 1",
+                                        "description": "Descrizione del prodotto 1",
+                                        "caption": "",
+                                        "idImage": 1
+                                    },
+                                    {
+                                        "url": "https://image.shutterstock.com/image-illustration/wooden-pedestal-displayplatform-designblank-product-600w-1052121983.jpg",
+                                        "title": "Prodotto 2",
+                                        "description": "Descrizione del prodotto 2",
+                                        "caption": "",
+                                        "idImage": 0
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "responsiveCode": "6-6",
+                    "columnGap": "0px",
+                    "rowGap": "0px",
+                    "customRowClasses": "bb-prodotto-evidenza-row",
+                    "customColumnsClasses": "bb-prodotto-evidenza-column",
+                    "attributes": [],
+                    "elements": [
+                        {
+                            "key": "imagesgroup",
+                            "value": {
+                                "idGallery": 1,
+                                "type": "gallery",
+                                "showCaption": false,
+                                "showTitle": false,
+                                "showDescription": false,
+                                "settings": {
+                                    "extendClassesToImages": true,
+                                    "id": "homepage-img-1",
+                                    "customClasses": "homepage-img homepage-img-first-block",
+                                    "inlineStyle": "",
+                                    "attributes": []
+                                }
+                            },
+                            "imagesgroup": {
+                                "gallery": {
+                                    "name": "Homepage Images First Block",
+                                    "description": "Images for the first block of the homepage",
+                                    "slug": "first-block-gallery"
+                                },
+                                "images": [
+                                    {
+                                        "url": "https://image.shutterstock.com/image-illustration/wooden-pedestal-displayplatform-designblank-product-600w-1052121983.jpg",
+                                        "title": "",
+                                        "description": "",
+                                        "caption": "",
+                                        "idImage": 0
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "key": "html",
+                            "value": {
+                                "content": "<p>Titoletto piccolo</p> <h2>TITOLO H2</h2> <p>Frase mediamente <strong>lunga con GRASSETTO</strong></p> <ul> <li>Feature numero: <strong>1</strong></li> <li>Feature numero: <em>2</em></li> <li>Feature numero: <span style=\"background-color: #e03e2d;\">3</span></li> </ul> <p>&nbsp;</p>",
+                                "settings": {
+                                    "id": "prodotto-in-evidenza"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "responsiveCode": "12",
+                    "columnGap": "0px",
+                    "rowGap": "0px",
+                    "customRowClasses": "bb-nostra-forza-row",
+                    "customColumnsClasses": "bb-nostra-forza-column",
+                    "attributes": [],
+                    "elements": [
+                        {
+                            "key": "html",
+                            "value": {
+                                "content": "<div class=\"riga\"> <div class=\"colonna-6\"> <div class=\"riga\"> <div class=\"colonna-6\"> <strong>Il nostro prodotto<\/strong> \u00E8 fortissimo <\/div> <div class=\"colonna-6\"> <img src=\"https:\/\/image.shutterstock.com\/image-photo\/wind-turbine-asian-mechanical-engineer-260nw-1414882847.jpg\" id=\"prodotto-fortissimo-1\" class=\"prodotto-fortissimo\" \/> <\/div> <\/div> <div class=\"riga\"> <div class=\"riga\"> <div class=\"colonna-12\"> <img src=\"https:\/\/image.shutterstock.com\/image-photo\/landscape-wind-turbines-that-produce-600w-1529737649.jpg\" id=\"prodotto-fortissimo-2\" class=\"prodotto-fortissimo\" \/> <\/div> <\/div> <div class=\"riga\"> <div class=\"colonna-12\"> <p>PROGETTI <strong>\"SU MISURA\"<\/strong><\/p> <p>La possibilit\u00E0 di customizzazione del prodotto ci rende i partner ideali per studi di progettazione che richiedono una forte personalizzazione dle prodotto!<\/p> <\/div> <\/div> <\/div> <\/div> <div class=\"colonna-6\"> <div class=\"riga\"> <div class=\"colonna-12\"> <p>PRODUTTORI AL <strong>100%<\/strong><\/p> <p>Progettando e realizzando i nostri prodotti garantiamo standard elevati e <strong>garanzia di qualit\u00E0<\/strong>.<\/p> <p>Uno <strong>standard elevato<\/strong> sotto tutti i punti di vista<\/p> <\/div> <\/div> <div class=\"riga\"> <div class=\"colonna-12\"> <img src=\"https:\/\/image.shutterstock.com\/image-photo\/greek-wind-park-on-snowed-260nw-1654044058.jpg\" id=\"prodotto-fortissimo-3\" class=\"prodotto-fortissimo\" \/> <\/div> <\/div> <\/div> <\/div>",
+                                "settings": {
+                                    "id": "la-nostra-forza"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "responsiveCode": "12",
+                    "columnGap": "0px",
+                    "rowGap": "0px",
+                    "customRowClasses": "bb-punti-cardine-text-row",
+                    "customColumnsClasses": "bb-punti-cardine-text-column",
+                    "attributes": [],
+                    "elements": [
+                        {
+                            "key": "text",
+                            "value": {
+                                "content": "I nostri punti cardine",
+                                "settings": {
+                                    "id": "",
+                                    "elementClasses": "",
+                                    "attributes": [],
+                                    "textSize": "20px",
+                                    "textColor": "#000000",
+                                    "textAlignment": "center", 
+                                    "inlineStyle": "text-transform: uppercase; font-weight: bold;"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "responsiveCode": "3-3-3-3",
+                    "columnGap": "0px",
+                    "rowGap": "0px",
+                    "customRowClasses": "bb-punti-cardine-images-row",
+                    "customColumnsClasses": "bb-punti-cardine-images-column",
+                    "attributes": [],
+                    "elements": [
+                        {
+                            "key": "imagesgroup",
+                            "value": {
+                                "idGallery": 3,
+                                "type": "gallery",
+                                "showCaption": false,
+                                "showTitle": false,
+                                "showDescription": true,
+                                "settings": {
+                                    "extendClassesToImages": true,
+                                    "id": "gallery-features",
+                                    "customClasses": "gallery-features",
+                                    "inlineStyle": "",
+                                    "attributes": []
+                                }
+                            },
+                            "imagesgroup": {
+                                "gallery": {
+                                    "name": "Gallery Features",
+                                    "description": "Gallery con immagini delle features.",
+                                    "slug": "gallery-features"
+                                },
+                                "images": [
+                                    {
+                                        "url": "https://image.shutterstock.com/image-vector/privacy-mode-icon-security-feature-600w-665157262.jpg",
+                                        "title": "",
+                                        "description": "Feature 1",
+                                        "caption": "",
+                                        "idImage": 10
+                                    },
+                                    {
+                                        "url": "https://image.shutterstock.com/image-vector/privacy-mode-icon-security-feature-600w-665157262.jpg",
+                                        "title": "",
+                                        "description": "Feature 2",
+                                        "caption": "",
+                                        "idImage": 11
+                                    },
+                                    {
+                                        "url": "https://image.shutterstock.com/image-vector/privacy-mode-icon-security-feature-600w-665157262.jpg",
+                                        "title": "",
+                                        "description": "Feature 3",
+                                        "caption": "",
+                                        "idImage": 12
+                                    },
+                                    {
+                                        "url": "https://image.shutterstock.com/image-vector/privacy-mode-icon-security-feature-600w-665157262.jpg",
+                                        "title": "",
+                                        "description": "Feature 4",
+                                        "caption": "",
+                                        "idImage": 13
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                },
+                {
+                    "responsiveCode": "12",
+                    "columnGap": "0px",
+                    "rowGap": "0px",
+                    "customRowClasses": "bb-prodotti-text-row",
+                    "customColumnsClasses": "bb-prodotti-text-column",
+                    "attributes": [],
+                    "elements": [
+                        {
+                            "key": "text",
+                            "value": {
+                                "content": "I nostri prodotti",
+                                "settings": {
+                                    "id": "",
+                                    "elementClasses": "",
+                                    "attributes": [],
+                                    "textSize": "20px",
+                                    "textColor": "#000000",
+                                    "textAlignment": "center", 
+                                    "inlineStyle": "text-transform: uppercase; font-weight: bold;"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "responsiveCode": "3-3-3-3",
+                    "columnGap": "0px",
+                    "rowGap": "0px",
+                    "customRowClasses": "bb-prodotti-row",
+                    "customColumnsClasses": "bb-prodotti-column",
+                    "attributes": [],
+                    "elements": [
+                        {
+                            "key": "bbsway-products",
+                            "value": {
+                                "itemsToReturn": 4,
+                                "singleProductClasses": "prodotto",
+                                "singleProductInlineStyle": "",
+                                "settings": {
+                                    "id": "bbsway-products-homepage",
+                                    "customClasses": "bbsway-products-homepage",
+                                    "inlineStyle": "",
+                                    "attributes": []
+                                }
+                            },
+                            "bbswayProducts": 
+                            [
+                                {
+                                    "productImageUrl": "https://image.shutterstock.com/image-vector/privacy-mode-icon-security-feature-600w-665157262.jpg",
+                                    "title": "Prodotto 1",
+                                    "idCategory": 1,
+                                    "categoryDescription": "Category 1",
+                                    "productUrl": "/product/example-product"
+                                },
+                                {
+                                    "url": "https://image.shutterstock.com/image-vector/privacy-mode-icon-security-feature-600w-665157262.jpg",
+                                    "title": "Prodotto 2",
+                                    "idCategory": 2,
+                                    "categoryDescription": "Category 2",
+                                    "productUrl": "/product/example-product"
+                                },
+                                {
+                                    "url": "https://image.shutterstock.com/image-vector/privacy-mode-icon-security-feature-600w-665157262.jpg",
+                                    "title": "Prodotto 3",
+                                    "idCategory": 2,
+                                    "categoryDescription": "Category 2",
+                                    "productUrl": "/product/example-product"
+                                },
+                                {
+                                    "url": "https://image.shutterstock.com/image-vector/privacy-mode-icon-security-feature-600w-665157262.jpg",
+                                    "title": "Prodotto 4",
+                                    "idCategory": 1,
+                                    "categoryDescription": "Category 1",
+                                    "productUrl": "/product/example-product"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "responsiveCode": "6-6",
+                    "columnGap": "0px",
+                    "rowGap": "0px",
+                    "customRowClasses": "bb-mission-text-row",
+                    "customColumnsClasses": "bb-mission-text-column",
+                    "attributes": [],
+                    "elements": [
+                        {
+                            "key": "text",
+                            "value": {
+                                "content": "La nostra mission",
+                                "settings": {
+                                    "id": "",
+                                    "elementClasses": "",
+                                    "attributes": [],
+                                    "textSize": "20px",
+                                    "textColor": "#000000",
+                                    "textAlignment": "right", 
+                                    "inlineStyle": "text-transform: uppercase; font-weight: bold;"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "responsiveCode": "6-6",
+                    "columnGap": "0px",
+                    "rowGap": "0px",
+                    "customRowClasses": "bb-prodotti-text-row",
+                    "customColumnsClasses": "bb-prodotti-text-column",
+                    "attributes": [],
+                    "elements": [
+                        {
+                            "key": "video",
+                            "value": {
+                                "urlMp4": "https://www.youtube.com/watch?v=y7wD5uajZBI",
+                                "urlOgg": "",
+                                "urlPoster": "",
+                                "behaviours": {
+                                    "showControls": false,
+                                    "loopVideo": true,
+                                    "muteVideo": true,
+                                    "playInlineOnMobileDevices": false,
+                                    "lazyLoadVideo": true,
+                                    "autoplay": true
+                                },
+                                "settings": {
+                                    "id": "",
+                                    "customClasses": "",
+                                    "inlineStyle": "",
+                                    "attributes": []
+                                }
+                            }
+                        },
+                        {
+                            "key": "html",
+                            "value": {
+                                "content": "<p style=\"text-align: justify;\">\"Progettiamo e realizziamo prodotti per un certo motivo che si distinguono per la qualit&agrave;, l'innovazione tecnologica e una filosofia incentrata sul risparmio energetico e sull'ecosostenibilit&agrave;\".</p> <br/><br/> <a class=\"bottone bottone-verde bottone-con-freccia-destra testo-uppercase\">La nostra storia</a>",
+                                "settings": {
+                                    "id": "our-mission-desc"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "responsiveCode": "12",
+                    "columnGap": "0px",
+                    "rowGap": "0px",
+                    "customRowClasses": "bb-blog-subtitle-text-row",
+                    "customColumnsClasses": "bb-blog-subtitle-text-column",
+                    "attributes": [],
+                    "elements": [
+                        {
+                            "key": "text",
+                            "value": {
+                                "content": "Ultime News",
+                                "settings": {
+                                    "id": "",
+                                    "elementClasses": "emula-h3",
+                                    "attributes": [],
+                                    "textSize": "12px",
+                                    "textColor": "#000000",
+                                    "textAlignment": "center", 
+                                    "inlineStyle": "text-transform: uppercase; font-weight: bold;"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "responsiveCode": "12",
+                    "columnGap": "0px",
+                    "rowGap": "0px",
+                    "customRowClasses": "bb-blog-title-text-row",
+                    "customColumnsClasses": "bb-blog-title-text-column",
+                    "attributes": [],
+                    "elements": [
+                        {
+                            "key": "text",
+                            "value": {
+                                "content": "Dal nostro blog",
+                                "settings": {
+                                    "id": "",
+                                    "elementClasses": "emula-h2",
+                                    "attributes": [],
+                                    "textSize": "20px",
+                                    "textColor": "#000000",
+                                    "textAlignment": "center", 
+                                    "inlineStyle": "font-weight: bold;"
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "responsiveCode": "4-4-4",
+                    "columnGap": "0px",
+                    "rowGap": "0px",
+                    "customRowClasses": "bb-blog-row",
+                    "customColumnsClasses": "bb-blog-column",
+                    "attributes": [],
+                    "elements": [
+                        {
+                            "key": "blog",
+                            "value": {
+                                "categories": [1, 2], 
+                                "itemsToReturn": 3, 
+                                "orderByColumn": "createdAt", 
+                                "orderType": "desc",
+                                "settings": {
+                                    "id": "blog-container",
+                                    "customClasses": "blog-posts",
+                                    "inlineStyle": "",
+                                    "attributes": []
+                                }
+                            },
+                            "categories": [
+                                { 
+                                    "id": 1,
+                                    "description": "Categoria 1"
+                                },
+                                {
+                                    "id": 2,
+                                    "description": "Categoria 2"
+                                }
+                            ],
+                            "posts": [
+                                {
+                                    "id": 3,
+                                    "title": "Titolo 3",
+                                    "intro": "29/12/20",
+                                    "urlImage": "img/gallery-1.jpg"
+                                },
+                                {
+                                    "id": 2,
+                                    "title": "Titolo 2",
+                                    "intro": "Introduzione breve Titolo 2",
+                                    "urlImage": "img/slider-2.jpg"
+                                },
+                                {
+                                    "id": 1,
+                                    "title": "Titolo 1",
+                                    "intro": "Introduzione breve Titolo 1",
+                                    "urlImage": "" 
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "responsiveCode": "12",
+                    "columnGap": "0px",
+                    "rowGap": "0px",
+                    "customRowClasses": "bb-footer-row",
+                    "customColumnsClasses": "bb-footer-column",
+                    "attributes": [],
+                    "elements": [
+                        {
+                            "key": "text",
+                            "value": {
+                                "content": "Footer di esempio",
+                                "settings": {
+                                    "id": "footer",
+                                    "elementClasses": "",
+                                    "attributes": [
+                                        { "data-htmlelement": "small" }
+                                    ],
+                                    "textSize": "8px",
+                                    "textColor": "#000000",
+                                    "textAlignment": "center", 
+                                    "inlineStyle": "text-transform: uppercase; font-weight: bold;"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
