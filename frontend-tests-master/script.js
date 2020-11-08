@@ -5,7 +5,7 @@ $.ajax({
     "url" :"homepage.json",
     "success" : ris => {
         console.log(ris);
-        console.log(ris.pageStructure.layout.lg[9].elements[0].value.urlMp4);
+        console.log(ris.pageStructure.layout.lg[12].elements[0].posts[1].urlImage);
 
         var base = (ris.pageStructure.layout)
 

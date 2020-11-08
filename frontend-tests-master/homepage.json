@@ -43,7 +43,7 @@
                                 },
                                 "images": [
                                     {
-                                        "url": "img/white-logo.png",
+                                        "url": "img/white-logo.svg",
                                         "title": "",
                                         "description": "",
                                         "caption": "",
@@ -480,7 +480,7 @@
                         {
                             "key": "html",
                             "value": {
-                                "content": "<span style=\"text-align: justify;\">\"Progettiamo e realizziamo prodotti per un certo motivo che si distinguono per la qualit&agrave;, l'innovazione tecnologica e una filosofia incentrata sul risparmio energetico e sull'ecosostenibilit&agrave;Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque illo voluptatibus consequatur corporis iusto ab, corrupti assumenda iure ipsam ex distinctio, error quo pariatur non nostrum tempora consequuntur! Temporibus, error!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque illo voluptatibus consequatur corporis iusto ab, corrupti assumenda iure ipsam ex distinctio, error quo pariatur non nostrum tempora consequuntur! Temporibus, error!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque illo voluptatibus consequatur corporis iusto ab, corrupti assumenda iure ipsam ex distinctio, error quo pariatur non nostrum tempora consequuntur! Temporibus, error!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque illo voluptatibus consequatur corporis iusto ab, corrupti assumenda iure ipsam ex distinctio, error quo pariatur non nostrum tempora consequuntur! Temporibus, error!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque illo voluptatibus consequatur corporis iusto ab, corrupti assumenda iure ipsam ex distinctio, error quo pariatur non nostrum tempora consequuntur! Temporibus, error!\".</span>",
+                                "content": "<span style=\"text-align: justify;\">\"Progettiamo e realizziamo prodotti per un certo motivo che si distinguono per la qualit&agrave;, l'innovazione tecnologica e una filosofia incentrata sul risparmio energetico e sull'ecosostenibilit&agrave;Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque illo voluptatibus consequatur corporis iusto ab, corrupti assumenda iure ipsam ex distinctio, error quo pariatur non nostrum tempora consequuntur! Temporibus, error!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque illo voluptatibus consequatur corporis iusto ab, corrupti assumenda iure ipsam ex distinctio, error quo pariatur non nostrum tempora consequuntur! Temporibus, error!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque illo voluptatibus consequatur corporis iusto ab, corrupti assumenda iure ipsam ex distinctio, error quo pariatur non nostrum tempora consequuntur!\".</span>",
                                 "settings": {
                                     "id": "our-mission-desc"
                                 }
@@ -1798,19 +1798,19 @@
                                 {
                                     "id": 3,
                                     "title": "Titolo 3",
-                                    "intro": "Introduzione breve Titolo 3",
-                                    "urlImage": "https://image.shutterstock.com/image-vector/wind-turbine-icon-600w-424483717.jpg"
+                                    "intro": "15/08/20",
+                                    "urlImage": "img/gallery-1.jpg"
                                 },
                                 {
                                     "id": 2,
                                     "title": "Titolo 2",
-                                    "intro": "Introduzione breve Titolo 2",
-                                    "urlImage": "https://image.shutterstock.com/image-vector/wind-turbine-icon-600w-424483717.jpg"
+                                    "intro": "15/08/20",
+                                    "urlImage": "img/slider-2.jpg"
                                 },
                                 {
                                     "id": 1,
                                     "title": "Titolo 1",
-                                    "intro": "Introduzione breve Titolo 1",
+                                    "intro": "15/08/20",
                                     "urlImage": "https://image.shutterstock.com/image-vector/wind-turbine-icon-600w-424483717.jpg"
                                 }
                             ]
@@ -2410,20 +2410,20 @@
                                 {
                                     "id": 3,
                                     "title": "Titolo 3",
-                                    "intro": "Introduzione breve Titolo 3",
-                                    "urlImage": "https://image.shutterstock.com/image-vector/wind-turbine-icon-600w-424483717.jpg"
+                                    "intro": "29/12/20",
+                                    "urlImage": "img/gallery-1.jpg"
                                 },
                                 {
                                     "id": 2,
                                     "title": "Titolo 2",
                                     "intro": "Introduzione breve Titolo 2",
-                                    "urlImage": "https://image.shutterstock.com/image-vector/wind-turbine-icon-600w-424483717.jpg"
+                                    "urlImage": "img/slider-2.jpg"
                                 },
                                 {
                                     "id": 1,
                                     "title": "Titolo 1",
                                     "intro": "Introduzione breve Titolo 1",
-                                    "urlImage": "https://image.shutterstock.com/image-vector/wind-turbine-icon-600w-424483717.jpg"
+                                    "urlImage": "" 
                                 }
                             ]
                         }

@@ -450,7 +450,25 @@ span {
 }
 
 .lg-space {
-  margin-top: 80px;
+  margin-top: 90px;
+}
+
+@media (max-width: 550px) {
+  .lg-space {
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 550px) {
+  .mega-space {
+    margin-top: 530px;
+  }
+}
+
+@media (max-width: 550px) {
+  .delate-sm {
+    display: none !important;
+  }
 }
 
 .scrollContainer {
@@ -467,17 +485,43 @@ span {
 }
 
 .menu .header-logo {
-  height: 100px;
+  height: 60px;
+  margin: 15px;
+}
+
+@media (max-width: 815px) {
+  .menu .header-logo {
+    margin: 25px 10px;
+  }
+}
+
+@media (max-width: 550px) {
+  .menu .header-logo {
+    margin: 10px 0px;
+    height: 50px;
+  }
 }
 
 .menu .menu-link {
   margin-top: 30px;
 }
 
+@media (max-width: 550px) {
+  .menu .menu-link {
+    margin-top: 26px;
+  }
+}
+
 .menu .btn {
   font-family: 'Libre Franklin', sans-serif;
   font-weight: 300;
   color: white;
+}
+
+@media (max-width: 550px) {
+  .menu .contatti {
+    margin-left: 30px;
+  }
 }
 
 .dropdown-menu.show {
@@ -496,6 +540,15 @@ span {
 
 .img-slider-container {
   max-height: 95vh;
+  min-height: 50vh;
+}
+
+@media (max-width: 550px) {
+  .img-slider-container img {
+    width: auto;
+    height: 50vh;
+    overflow: hidden;
+  }
 }
 
 .img-slider-homepage {
@@ -512,6 +565,12 @@ span {
   background-repeat: no-repeat;
   background-position: center;
   height: 80vh;
+}
+
+@media (max-width: 550px) {
+  .salone {
+    height: 50vh;
+  }
 }
 
 .img-prodotto-evidenza {
@@ -543,9 +602,23 @@ span {
   margin: 0px auto;
 }
 
+@media (max-width: 950px) {
+  .prodotti-img {
+    height: 150px;
+    width: 150px;
+  }
+}
+
 .prodotti-video-text {
   margin: auto 0px;
   padding: 0 30px;
+}
+
+@media (max-width: 550px) {
+  .prodotti-video-text {
+    margin: 20px 0px 0px;
+    text-align: center;
+  }
 }
 
 .blog-1-img {
@@ -584,6 +657,12 @@ hr {
   background-image: url(img/map.jpg);
   height: 30vh;
   margin: 50px 30px 50px 80px;
+}
+
+@media (max-width: 550px) {
+  .map {
+    margin: 20px;
+  }
 }
 
 .info-footer {
