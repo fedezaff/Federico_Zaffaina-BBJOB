@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Shape</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.7">
+        <g id="biglietti/default" transform="translate(-10.000000, 0.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <path d="M10,11.9999938 L11.5,13.5000007 C12.3284232,12.6715826 13.6715998,12.6716038 14.5,13.5000007 C15.3284347,14.3284399 15.3284134,15.6715751 14.5,16.4999931 L16,18 L24.4,9.6 L18.4000194,3.6 L10,11.9999938 L10,11.9999938 Z M18.64,3.12000074 L24.8800074,9.36 L28,6.23999926 L26.4400147,4.6799989 C25.5784378,5.54155578 24.1815769,5.54157122 23.32,4.6799989 C22.4584672,3.81845966 22.4584451,2.42155725 23.32,1.56000037 L21.7599926,0 L18.64,3.12000074 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>

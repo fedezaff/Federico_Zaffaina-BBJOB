@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		
+		<title>Cinecalendar</title>
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		
+		<!-- Load stylesheet -->  
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
+		<link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+		
+		<!-- for Facebook -->          
+		<meta property="og:title" content="" />
+		<meta property="og:type" content="article" />
+		<meta property="og:image" content="" />
+		<meta property="og:url" content="" />
+		<meta property="og:description" content="" />
+		
+		<!-- for Twitter -->          
+		<meta name="twitter:card" content="" />
+		<meta name="twitter:title" content="" />
+		<meta name="twitter:description" content="" />
+		<meta name="twitter:image" content="" />
+
+    </head>
+    <body class="dark-blue-background">
+
+		<div class="video"></div>
+		<div class="sfumatura"></div>
+		<div class="movie"></div>
+		<div class="swiper-container card-character">
+			<div class="swiper-wrapper protagonist"></div>
+		</div>
+		<h3 class="pl-4 py-4">WALLPAPER</h3>
+
+		<div class="swiper-container sfondi">
+			<div class="swiper-wrapper wallpaper"></div>
+			<div class="swiper-button-next swiper-button-white"></div>
+			<div class="swiper-button-prev swiper-button-white"></div>
+		</div>
+		
+		<h3 class="pl-4 py-4">CONSIGLIATI</h3>
+
+		<div class="swiper-container card-similar">
+			<div class="swiper-wrapper corellati"></div>
+		</div>
+
+		<div class="container-menu">
+			<a href="#0">
+				<img src="assets/img/simboli/user.svg" alt="">
+				<p class="text-menu">profilo</p>
+			</a>
+			<a href="explore.html">
+				<img src="assets/img/simboli/explore.svg" alt="">
+				<p class="text-menu">esplora</p>
+			</a>
+			<a href="#0">
+				<img src="assets/img/simboli/ticket.svg" alt="">
+				<p class="text-menu">biglietti</p>
+			</a>
+			<a href="#0">
+				<img src="assets/img/simboli/assistenza.svg" alt="">
+				<p class="text-menu">assistenza</p>
+			</a>
+		</div>
+
+        		<!-- Load Javascript components --> 
+
+		<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+		<script src="/assets/js/scriptMovie.js"></script>
+		<script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+
+		<!-- swiper -->
+		<script>
+			var swiper2 = new Swiper('.card-character', {
+			  slidesPerView: 3,
+			  spaceBetween: 5,
+			  loop: false,
+			  breakpoints: {
+				100: {
+				  slidesPerView: 3,
+				  spaceBetween: 5,
+				},
+			  }
+			});
+		  </script>
+		  <script>
+			var swiper3 = new Swiper('.card-similar', {
+			  slidesPerView: 3,
+			  spaceBetween: 5,
+			  loop: false,
+			});
+		  </script>
+		  <script>
+			var swiper4 = new Swiper('.sfondi', {
+			loop: true,
+			spaceBetween: 10,
+			loopedSlides: 2,
+			navigation: {
+       			nextEl: '.swiper-button-next',
+        		prevEl: '.swiper-button-prev',
+      			},
+			});
+		  </script>
+    </body>
+</html>
